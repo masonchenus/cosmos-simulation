@@ -1004,4 +1004,3 @@ const AstronomicalData = {
 if (typeof window !== 'undefined') {
     window.AstronomicalData = AstronomicalData;
 }
-export default AstronomicalData;

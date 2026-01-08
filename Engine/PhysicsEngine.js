@@ -395,4 +395,3 @@ const PhysicsEngine = {
 if (typeof window !== 'undefined') {
     window.PhysicsEngine = PhysicsEngine;
 }
-export default PhysicsEngine;
