@@ -1,0 +1,355 @@
+/* Cosmos Simulation - Main Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* UI Overlay */
+#ui-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+}
+
+#ui-overlay>* {
+    pointer-events: auto;
+}
+
+/* Info Panel */
+#info-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background: rgba(10, 20, 40, 0.9);
+    border: 1px solid rgba(100, 150, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    transition: opacity 0.3s ease;
+}
+
+#info-panel.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#info-panel h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #6af;
+    border-bottom: 1px solid rgba(100, 150, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+#body-info {
+    font-size: 0.9em;
+    line-height: 1.8;
+}
+
+#body-info .label {
+    color: #8af;
+}
+
+#body-info .value {
+    color: #fff;
+}
+
+/* Controls Panel */
+#controls-panel {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(10, 20, 40, 0.9);
+    border: 1px solid rgba(100, 150, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    min-width: 250px;
+}
+
+#controls-panel h3 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #6af;
+}
+
+.control-group {
+    margin-bottom: 15px;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8af;
+    font-size: 0.9em;
+}
+
+.control-group input[type="range"] {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(100, 150, 255, 0.2);
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.control-group input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #6af;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.control-group input[type="range"]::-webkit-slider-thumb:hover {
+    background: #8cf;
+}
+
+.control-group button {
+    background: rgba(100, 150, 255, 0.2);
+    border: 1px solid rgba(100, 150, 255, 0.4);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+
+.control-group button:hover {
+    background: rgba(100, 150, 255, 0.4);
+}
+
+#speed-display {
+    color: #6af;
+    font-weight: bold;
+}
+
+/* Layers Panel */
+#layers-panel {
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    background: rgba(10, 20, 40, 0.9);
+    border: 1px solid rgba(100, 150, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+#layers-panel h3 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #6af;
+}
+
+#layers-panel label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #8af;
+}
+
+#layers-panel input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #6af;
+}
+
+/* Bodies List */
+#bodies-list {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(10, 20, 40, 0.9);
+    border: 1px solid rgba(100, 150, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    max-height: 400px;
+    overflow-y: auto;
+    min-width: 200px;
+}
+
+#bodies-list h3 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #6af;
+}
+
+#bodies-tree {
+    font-size: 0.9em;
+}
+
+.bodies-category {
+    margin-bottom: 10px;
+}
+
+.bodies-category-title {
+    color: #6af;
+    font-weight: bold;
+    padding: 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.bodies-category-title::before {
+    content: '▶';
+    margin-right: 8px;
+    font-size: 0.7em;
+    transition: transform 0.2s;
+}
+
+.bodies-category.collapsed .bodies-category-title::before {
+    transform: rotate(90deg);
+}
+
+.bodies-category.collapsed .bodies-list {
+    display: none;
+}
+
+.bodies-item {
+    padding: 5px 10px 5px 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.bodies-item:hover {
+    background: rgba(100, 150, 255, 0.2);
+}
+
+.bodies-item.selected {
+    background: rgba(100, 150, 255, 0.3);
+}
+
+.bodies-item .color-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Loading Screen */
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+#loading.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgba(100, 150, 255, 0.2);
+    border-top-color: #6af;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#loading p {
+    margin-top: 20px;
+    color: #8af;
+    font-size: 1.1em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(100, 150, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(100, 150, 255, 0.3);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(100, 150, 255, 0.5);
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    background: rgba(10, 20, 40, 0.95);
+    border: 1px solid rgba(100, 150, 255, 0.5);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    pointer-events: none;
+    z-index: 200;
+    white-space: nowrap;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #info-panel {
+        width: 250px;
+        right: 10px;
+        top: 10px;
+    }
+
+    #controls-panel {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        min-width: auto;
+    }
+
+    #layers-panel {
+        bottom: 100px;
+        left: 10px;
+    }
+
+    #bodies-list {
+        max-height: 300px;
+        max-width: 200px;
+    }
+}
