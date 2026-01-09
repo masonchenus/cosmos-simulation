@@ -1,0 +1,3282 @@
+# Cosmos Simulation Project Code of Conduct
+
+## Table of Contents
+- [Cosmos Simulation Project Code of Conduct](#cosmos-simulation-project-code-of-conduct)
+  - [Table of Contents](#table-of-contents)
+- [Contributor Covenant Code of Conduct](#contributor-covenant-code-of-conduct)
+  - [Our Pledge](#our-pledge)
+  - [Our Standards](#our-standards)
+  - [Enforcement Responsibilities](#enforcement-responsibilities)
+  - [Scope](#scope)
+  - [Enforcement](#enforcement)
+  - [Enforcement Guidelines](#enforcement-guidelines)
+    - [1. Correction](#1-correction)
+    - [2. Warning](#2-warning)
+    - [3. Temporary Ban](#3-temporary-ban)
+    - [4. Permanent Ban](#4-permanent-ban)
+  - [Attribution](#attribution)
+- [Contributing](#contributing)
+  - [How to Contribute](#how-to-contribute)
+  - [Contribution Types](#contribution-types)
+    - [Code Contributions](#code-contributions)
+    - [Documentation Contributions](#documentation-contributions)
+    - [Scientific Contributions](#scientific-contributions)
+    - [Community Contributions](#community-contributions)
+  - [Getting Started](#getting-started)
+    - [For New Contributors](#for-new-contributors)
+    - [For Experienced Contributors](#for-experienced-contributors)
+  - [Pull Request Process](#pull-request-process)
+    - [Pull Request Guidelines](#pull-request-guidelines)
+  - [Contribution Recognition](#contribution-recognition)
+- [Collaboration](#collaboration)
+  - [Team Collaboration Guidelines](#team-collaboration-guidelines)
+    - [Core Collaboration Principles](#core-collaboration-principles)
+    - [Working Together Effectively](#working-together-effectively)
+  - [Code Review Practices](#code-review-practices)
+    - [For Reviewers](#for-reviewers)
+    - [For Authors](#for-authors)
+    - [Review Focus Areas](#review-focus-areas)
+  - [Communication Channels](#communication-channels)
+    - [Primary Channels](#primary-channels)
+    - [Communication Best Practices](#communication-best-practices)
+    - [Response Expectations](#response-expectations)
+  - [Working Together Effectively](#working-together-effectively-1)
+    - [Async-First Communication](#async-first-communication)
+    - [Synchronous Communication](#synchronous-communication)
+    - [Handling Disagreements](#handling-disagreements)
+- [Roles](#roles)
+  - [Contributor Levels](#contributor-levels)
+    - [Casual Contributors](#casual-contributors)
+    - [Regular Contributors](#regular-contributors)
+    - [Major Contributors](#major-contributors)
+  - [Maintainers](#maintainers)
+    - [Maintainer Responsibilities](#maintainer-responsibilities)
+    - [Maintainer Privileges](#maintainer-privileges)
+    - [Becoming a Maintainer](#becoming-a-maintainer)
+  - [Project Leads](#project-leads)
+    - [Project Lead Responsibilities](#project-lead-responsibilities)
+    - [Project Lead Selection](#project-lead-selection)
+  - [Role Promotion Criteria](#role-promotion-criteria)
+    - [From Casual to Regular](#from-casual-to-regular)
+    - [From Regular to Major](#from-regular-to-major)
+    - [From Major to Maintainer](#from-major-to-maintainer)
+    - [Maintaining Roles](#maintaining-roles)
+    - [Role Transitions](#role-transitions)
+- [Cosmos Simulation Project Extended Community Guidelines](#cosmos-simulation-project-extended-community-guidelines)
+  - [Introduction](#introduction)
+  - [Project Mission and Values](#project-mission-and-values)
+    - [Our Mission](#our-mission)
+    - [Core Values](#core-values)
+  - [Getting Started with Contributing](#getting-started-with-contributing)
+    - [For New Contributors](#for-new-contributors-1)
+    - [For Experienced Contributors](#for-experienced-contributors-1)
+  - [Communication Guidelines](#communication-guidelines)
+    - [General Communication Principles](#general-communication-principles)
+    - [Issue Tracking Guidelines](#issue-tracking-guidelines)
+    - [Pull Request Guidelines](#pull-request-guidelines-1)
+  - [Technical Standards](#technical-standards)
+    - [Code Style and Conventions](#code-style-and-conventions)
+    - [Scientific Accuracy](#scientific-accuracy)
+    - [Performance Considerations](#performance-considerations)
+  - [Community Roles and Responsibilities](#community-roles-and-responsibilities)
+    - [Contributors](#contributors)
+    - [Maintainers](#maintainers-1)
+    - [Project Leads](#project-leads-1)
+  - [Conflict Resolution](#conflict-resolution)
+  - [Acknowledging Contributions](#acknowledging-contributions)
+  - [Contact Information](#contact-information)
+  - [Comprehensive Behavioral Guidelines](#comprehensive-behavioral-guidelines)
+    - [What You SHOULD Do](#what-you-should-do)
+    - [What You SHOULD NOT Do](#what-you-should-not-do)
+  - [Severity Levels and Consequences](#severity-levels-and-consequences)
+    - [Level 1: Minor Verbal Correction](#level-1-minor-verbal-correction)
+    - [Level 2: Formal Written Warning](#level-2-formal-written-warning)
+    - [Level 3: Temporary Discussion Ban](#level-3-temporary-discussion-ban)
+    - [Level 4: Pull Request Moratorium](#level-4-pull-request-moratorium)
+    - [Level 5: Restricted Participation](#level-5-restricted-participation)
+    - [Level 6: Temporary Community Ban](#level-6-temporary-community-ban)
+    - [Level 7: Extended Community Ban](#level-7-extended-community-ban)
+    - [Level 8: Permanent Account Suspension](#level-8-permanent-account-suspension)
+    - [Level 9: Legal Referral](#level-9-legal-referral)
+    - [Level 10: Emergency Project Protection](#level-10-emergency-project-protection)
+  - [Escalation and Deescalation Guidelines](#escalation-and-deescalation-guidelines)
+    - [Escalation Path](#escalation-path)
+    - [Deescalation Considerations](#deescalation-considerations)
+    - [Appeal Process](#appeal-process)
+  - [Reporting Violations](#reporting-violations)
+  - [Enforcement Team](#enforcement-team)
+  - [Glossary](#glossary)
+  - [Reach Out to Me](#reach-out-to-me)
+  - [Enforcement Responsibilities](#enforcement-responsibilities-1)
+  - [Scope](#scope-1)
+  - [Enforcement](#enforcement-1)
+  - [Enforcement Guidelines](#enforcement-guidelines-1)
+    - [1. Correction](#1-correction-1)
+    - [2. Warning](#2-warning-1)
+    - [3. Temporary Ban](#3-temporary-ban-1)
+    - [4. Permanent Ban](#4-permanent-ban-1)
+  - [Attribution](#attribution-1)
+- [Cosmos Simulation Project \* Extended Community Guidelines](#cosmos-simulation-project--extended-community-guidelines)
+  - [Introduction](#introduction-1)
+  - [Project Mission and Values](#project-mission-and-values-1)
+    - [Our Mission](#our-mission-1)
+    - [Core Values](#core-values-1)
+  - [Getting Started with Contributing](#getting-started-with-contributing-1)
+    - [For New Contributors](#for-new-contributors-2)
+    - [For Experienced Contributors](#for-experienced-contributors-2)
+  - [Communication Guidelines](#communication-guidelines-1)
+    - [General Communication Principles](#general-communication-principles-1)
+    - [Issue Tracking Guidelines](#issue-tracking-guidelines-1)
+    - [Pull Request Guidelines](#pull-request-guidelines-2)
+    - [Code Review Etiquette](#code-review-etiquette)
+  - [Technical Standards](#technical-standards-1)
+    - [Code Style and Conventions](#code-style-and-conventions-1)
+    - [Scientific Accuracy](#scientific-accuracy-1)
+    - [Performance Considerations](#performance-considerations-1)
+  - [Community Roles and Responsibilities](#community-roles-and-responsibilities-1)
+    - [Contributors](#contributors-1)
+    - [Maintainers](#maintainers-2)
+    - [Project Leads](#project-leads-2)
+  - [Conflict Resolution](#conflict-resolution-1)
+    - [Step 1: Direct Communication](#step-1-direct-communication)
+    - [Step 2: Seek Mediation](#step-2-seek-mediation)
+    - [Step 3: Formal Resolution](#step-3-formal-resolution)
+    - [Step 4: Appeals](#step-4-appeals)
+  - [Acknowledging Contributions](#acknowledging-contributions-1)
+  - [Acknowledgments](#acknowledgments)
+  - [Contact Information](#contact-information-1)
+  - [Revision History](#revision-history)
+  - [Legal Notice](#legal-notice)
+  - [Closing Thoughts](#closing-thoughts)
+  - [Development Workflow](#development-workflow)
+    - [Overview](#overview)
+    - [Development Cycle](#development-cycle)
+    - [Development Environment Setup](#development-environment-setup)
+    - [Continuous Integration](#continuous-integration)
+  - [Documentation Standards](#documentation-standards)
+    - [Purpose and Scope](#purpose-and-scope)
+    - [Types of Documentation](#types-of-documentation)
+    - [Documentation Style](#documentation-style)
+    - [Keeping Documentation Current](#keeping-documentation-current)
+  - [Testing Requirements](#testing-requirements)
+    - [Why Testing Matters](#why-testing-matters)
+    - [Test Types](#test-types)
+    - [Test Coverage](#test-coverage)
+    - [Writing Good Tests](#writing-good-tests)
+  - [Security Guidelines](#security-guidelines)
+    - [Security First Approach](#security-first-approach)
+    - [Handling Sensitive Data](#handling-sensitive-data)
+    - [Dependency Security](#dependency-security)
+    - [Reporting Security Issues](#reporting-security-issues)
+  - [Accessibility Standards](#accessibility-standards)
+    - [Commitment to Accessibility](#commitment-to-accessibility)
+    - [Visual Accessibility](#visual-accessibility)
+    - [Interaction Accessibility](#interaction-accessibility)
+    - [Documentation Accessibility](#documentation-accessibility)
+  - [Internationalization](#internationalization)
+    - [Supporting Multiple Languages](#supporting-multiple-languages)
+    - [String Management](#string-management)
+    - [Localization Process](#localization-process)
+    - [Cultural Considerations](#cultural-considerations)
+  - [Release Management](#release-management)
+    - [Release Philosophy](#release-philosophy)
+    - [Release Types](#release-types)
+    - [Release Process](#release-process)
+    - [Version Numbering](#version-numbering)
+  - [Branching Strategy](#branching-strategy)
+    - [Main Branch](#main-branch)
+    - [Feature Branches](#feature-branches)
+    - [Release Branches](#release-branches)
+    - [Branch Lifecycle](#branch-lifecycle)
+  - [Commit Message Conventions](#commit-message-conventions)
+    - [Why Commit Messages Matter](#why-commit-messages-matter)
+    - [Commit Message Format](#commit-message-format)
+    - [Subject Line Guidelines](#subject-line-guidelines)
+    - [Commit Size](#commit-size)
+    - [Atomic Commits](#atomic-commits)
+  - [Issue Labeling System](#issue-labeling-system)
+    - [Purpose of Labels](#purpose-of-labels)
+    - [Label Categories](#label-categories)
+    - [Label Definitions](#label-definitions)
+    - [Label Consistency](#label-consistency)
+  - [Code of Conduct for Events](#code-of-conduct-for-events)
+    - [Event Participation](#event-participation)
+    - [Event Specific Guidelines](#event-specific-guidelines)
+    - [Virtual Events](#virtual-events)
+    - [Event Representation](#event-representation)
+  - [Social Media Guidelines](#social-media-guidelines)
+    - [Official Social Media Presence](#official-social-media-presence)
+    - [Account Representation](#account-representation)
+    - [Engaging with the Community](#engaging-with-the-community)
+    - [Personal Social Media](#personal-social-media)
+  - [Third Party Services](#third-party-services)
+    - [Service Integration](#service-integration)
+    - [Service Selection](#service-selection)
+    - [Service Configuration](#service-configuration)
+    - [Service Deprecation](#service-deprecation)
+  - [Dependency Management](#dependency-management)
+    - [Dependency Philosophy](#dependency-philosophy)
+    - [Adding Dependencies](#adding-dependencies)
+    - [Updating Dependencies](#updating-dependencies)
+    - [Removing Dependencies](#removing-dependencies)
+  - [License Compliance](#license-compliance)
+    - [Understanding Project Licenses](#understanding-project-licenses)
+    - [License Compatibility](#license-compatibility)
+    - [Third Party Content](#third-party-content)
+    - [License Headers](#license-headers)
+  - [Trademark Policy](#trademark-policy)
+    - [Project Name Usage](#project-name-usage)
+    - [Permitted Use](#permitted-use)
+    - [Prohibited Use](#prohibited-use)
+    - [Attribution](#attribution-2)
+  - [Privacy Considerations](#privacy-considerations)
+    - [User Privacy](#user-privacy)
+    - [Data Minimization](#data-minimization)
+    - [Third Party Privacy](#third-party-privacy)
+    - [Privacy in Contributions](#privacy-in-contributions)
+  - [AI and Machine Learning Guidelines](#ai-and-machine-learning-guidelines)
+    - [AI in the Project](#ai-in-the-project)
+    - [Transparency](#transparency)
+    - [Ethical Considerations](#ethical-considerations)
+    - [AI Contribution Guidelines](#ai-contribution-guidelines)
+  - [Community Metrics](#community-metrics)
+    - [Tracking Community Health](#tracking-community-health)
+    - [Metric Usage](#metric-usage)
+    - [Metric Transparency](#metric-transparency)
+    - [Privacy in Metrics](#privacy-in-metrics)
+  - [Recognition Programs](#recognition-programs)
+    - [Acknowledging Contributions](#acknowledging-contributions-2)
+    - [Types of Recognition](#types-of-recognition)
+    - [Recognition Criteria](#recognition-criteria)
+    - [Nomination Process](#nomination-process)
+  - [Mentorship Programs](#mentorship-programs)
+    - [Learning Opportunities](#learning-opportunities)
+    - [Becoming a Mentee](#becoming-a-mentee)
+    - [Becoming a Mentor](#becoming-a-mentor)
+    - [Mentorship Activities](#mentorship-activities)
+  - [Working Groups](#working-groups)
+    - [Purpose of Working Groups](#purpose-of-working-groups)
+    - [Forming Working Groups](#forming-working-groups)
+    - [Working Group Operation](#working-group-operation)
+    - [Participation in Working Groups](#participation-in-working-groups)
+  - [Roadmap Participation](#roadmap-participation)
+    - [Understanding the Roadmap](#understanding-the-roadmap)
+    - [Roadmap Input](#roadmap-input)
+    - [Contributing to Roadmap Items](#contributing-to-roadmap-items)
+    - [Roadmap Updates](#roadmap-updates)
+  - [Feature Requests](#feature-requests)
+    - [Requesting Features](#requesting-features)
+    - [Feature Request Evaluation](#feature-request-evaluation)
+    - [Contributing Requested Features](#contributing-requested-features)
+    - [Deprecation and Removal](#deprecation-and-removal)
+  - [Beta Testing](#beta-testing)
+    - [Beta Program](#beta-program)
+    - [Becoming a Beta Tester](#becoming-a-beta-tester)
+    - [Beta Tester Responsibilities](#beta-tester-responsibilities)
+    - [Beta Feedback Process](#beta-feedback-process)
+  - [User Feedback](#user-feedback)
+    - [Collecting Feedback](#collecting-feedback)
+    - [Types of Feedback](#types-of-feedback)
+    - [Providing Feedback](#providing-feedback)
+    - [Feedback Response](#feedback-response)
+  - [Crisis Management](#crisis-management)
+    - [Crisis Types](#crisis-types)
+    - [Crisis Response](#crisis-response)
+    - [Communication During Crises](#communication-during-crises)
+    - [Recovery and Learning](#recovery-and-learning)
+  - [Sustainability Practices](#sustainability-practices)
+    - [Long Term Sustainability](#long-term-sustainability)
+    - [Contributor Sustainability](#contributor-sustainability)
+    - [Technical Sustainability](#technical-sustainability)
+    - [Community Sustainability](#community-sustainability)
+  - [Comprehensive Behavioral Guidelines](#comprehensive-behavioral-guidelines-1)
+    - [What You SHOULD Do](#what-you-should-do-1)
+    - [What You SHOULD NOT Do](#what-you-should-not-do-1)
+  - [Severity Levels and Consequences](#severity-levels-and-consequences-1)
+    - [Severity Level 1: Minor Verbal Correction](#severity-level-1-minor-verbal-correction)
+    - [Severity Level 2: Formal Written Warning](#severity-level-2-formal-written-warning)
+    - [Severity Level 3: Temporary Discussion Ban](#severity-level-3-temporary-discussion-ban)
+    - [Severity Level 4: Pull Request Moratorium](#severity-level-4-pull-request-moratorium)
+    - [Severity Level 5: Restricted Participation](#severity-level-5-restricted-participation)
+    - [Severity Level 6: Temporary Community Ban](#severity-level-6-temporary-community-ban)
+    - [Severity Level 7: Extended Community Ban](#severity-level-7-extended-community-ban)
+    - [Severity Level 8: Permanent Account Suspension](#severity-level-8-permanent-account-suspension)
+    - [Severity Level 9: Legal Referral](#severity-level-9-legal-referral)
+    - [Severity Level 10: Emergency Project Protection](#severity-level-10-emergency-project-protection)
+  - [Escalation and Deescalation Guidelines](#escalation-and-deescalation-guidelines-1)
+    - [Escalation Path](#escalation-path-1)
+    - [deescalation Considerations](#deescalation-considerations-1)
+    - [Appeal Process](#appeal-process-1)
+  - [Reporting Violations](#reporting-violations-1)
+  - [Enforcement Team](#enforcement-team-1)
+  - [Glossary](#glossary-1)
+    - [Normal Glossary](#normal-glossary)
+      - [Extended Glossary (A-Z)](#extended-glossary-a-z)
+        - [A](#a)
+        - [B](#b)
+        - [C](#c)
+        - [D](#d)
+        - [E](#e)
+        - [F](#f)
+        - [G](#g)
+        - [H](#h)
+        - [I](#i)
+        - [J](#j)
+        - [K](#k)
+        - [L](#l)
+        - [M](#m)
+        - [N](#n)
+        - [O](#o)
+        - [P](#p)
+        - [Q](#q)
+        - [R](#r)
+        - [S](#s)
+        - [T](#t)
+        - [U](#u)
+        - [V](#v)
+        - [W](#w)
+        - [X](#x)
+        - [Y](#y)
+        - [Z](#z)
+  - [Last updated: January 2024](#last-updated-january-2024)
+
+
+# Contributor Covenant Code of Conduct
+
+## Our Pledge
+
+We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.
+
+We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.
+
+## Our Standards
+
+Examples of behavior that contributes to a positive environment for our
+community include:
+
+* Demonstrating empathy and kindness toward other people
+* Being respectful of differing opinions, viewpoints, and experiences
+* Giving and gracefully accepting constructive feedback
+* Accepting responsibility and apologizing to those affected by our mistakes,
+  and learning from the experience
+* Focusing on what is best not just for us as individuals, but for the
+  overall community
+
+Examples of unacceptable behavior include:
+
+* The use of sexualized language or imagery, and sexual attention or
+  advances of any kind
+* Trolling, insulting or derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or email
+  address, without their explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
+
+## Enforcement Responsibilities
+
+Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.
+
+Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.
+
+## Scope
+
+This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e-mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.
+
+## Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+mason@cosmos-simulation.example.com.
+All complaints will be reviewed and investigated promptly and fairly.
+
+All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.
+
+## Enforcement Guidelines
+
+Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:
+
+### 1. Correction
+
+**Community Impact:** Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.
+
+**Consequence:** A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.
+
+### 2. Warning
+
+**Community Impact:** A violation through a single incident or series
+of actions.
+
+**Consequence:** A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.
+
+### 3. Temporary Ban
+
+**Community Impact:** A serious violation of community standards, including
+sustained inappropriate behavior.
+
+**Consequence:** A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public
+or private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.
+
+### 4. Permanent Ban
+
+**Community Impact:** Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior, harassment of an
+individual, or aggression toward or disparagement of classes of individuals.
+
+**Consequence:** A permanent ban from any sort of public interaction within
+the community.
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage],
+version 2.0, available at
+https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+
+Community Impact Guidelines were inspired by [Mozilla's code of conduct
+enforcement ladder](https://github.com/mozilla/diversity).
+
+[homepage]: https://www.contributor-covenant.org
+
+For answers to common questions about this code of conduct, see the FAQ at
+https://www.contributor-covenant.org/faq. Translations are available at
+https://www.contributor-covenant.org/translations.
+
+This Code of Conduct is licensed under a Creative Commons Attribution 4.0
+International License. You are free to share and adapt this document for
+your own projects, provided you give appropriate credit and indicate if
+changes were made.
+
+---
+
+# Contributing
+
+## How to Contribute
+
+The Cosmos Simulation project welcomes contributions from anyone who shares
+our passion for space exploration and education. Whether you're a seasoned
+developer, a science enthusiast, or just getting started with open source,
+there are many ways you can contribute to our project.
+
+Contributions are not limited to code. We value and appreciate:
+- Bug reports and issue submissions
+- Documentation improvements
+- Scientific accuracy reviews
+- Translation work
+- Visual design and UI/UX improvements
+- Testing and quality assurance
+- Community support and mentoring
+- Feature suggestions and feedback
+
+## Contribution Types
+
+### Code Contributions
+- **Bug Fixes**: Identify and resolve issues in the codebase
+- **New Features**: Implement new functionality for the simulation
+- **Performance Improvements**: Optimize existing code for better performance
+- **Refactoring**: Improve code structure without changing functionality
+- **Test Coverage**: Add or improve unit, integration, or E2E tests
+
+### Documentation Contributions
+- **Tutorial Writing**: Create guides for new users
+- **API Documentation**: Improve code documentation and examples
+- **Error Message Improvements**: Make error messages clearer and more helpful
+- **Translation**: Translate documentation into other languages
+
+### Scientific Contributions
+- **Data Verification**: Check astronomical data against authoritative sources
+- **Accuracy Improvements**: Suggest and implement more accurate calculations
+- **New Celestial Bodies**: Propose and add data for new objects
+
+### Community Contributions
+- **Issue Triage**: Help organize and prioritize issues
+- **Code Review**: Review pull requests and provide constructive feedback
+- **Mentoring**: Help new contributors get started
+- **Community Support**: Answer questions in discussions
+
+## Getting Started
+
+### For New Contributors
+1. **Explore the Repository**: Familiarize yourself with the project structure
+2. **Start Small**: Begin with beginner-friendly issues labeled "good first issue"
+3. **Set Up Your Environment**: Follow the setup instructions in the README
+4. **Join the Community**: Introduce yourself in our discussion forums
+5. **Find a Task**: Look for issues that match your skills and interests
+
+### For Experienced Contributors
+1. **Review Pull Requests**: Help maintainers by reviewing others' contributions
+2. **Mentor Newcomers**: Guide new contributors through their first contributions
+3. **Propose Features**: Submit feature proposals for project direction input
+4. **Participate in Design**: Join discussions on major architectural decisions
+5. **Take Ownership**: Lead efforts on significant features or subsystems
+
+## Pull Request Process
+
+1. **Create a Branch**: Create a feature branch from main for your changes
+2. **Make Changes**: Implement your changes with appropriate tests and docs
+3. **Submit PR**: Open a pull request with a clear description of your changes
+4. **Address Feedback**: Respond to reviewer comments and make improvements
+5. **Merge**: Once approved, your contribution will be merged into the project
+
+### Pull Request Guidelines
+- Keep PRs focused on a single concern
+- Write clear commit messages
+- Include tests for new functionality
+- Update documentation as needed
+- Ensure CI passes before requesting review
+
+## Contribution Recognition
+
+We believe in acknowledging all contributions to our project:
+
+- **Contributor List**: All contributors are listed in our CONTRIBUTORS file
+- **Release Notes**: Significant contributions are highlighted in release announcements
+- **Special Recognition**: Outstanding contributors may be nominated for special acknowledgment
+- **Role Progression**: Active contributors may be invited to become maintainers
+
+All contributions matter, regardless of size. Every bug fix, documentation improvement,
+and helpful comment makes our project better.
+
+---
+
+# Collaboration
+
+## Team Collaboration Guidelines
+
+Effective collaboration is essential to the success of the Cosmos Simulation project.
+We believe that the best solutions emerge when diverse perspectives work together.
+
+### Core Collaboration Principles
+- **Respect**: Treat all collaborators with respect, regardless of experience level
+- **Transparency**: Be open about your work, decisions, and challenges
+- **Constructiveness**: Offer feedback that helps improve the project
+- **Inclusivity**: Welcome diverse viewpoints and backgrounds
+- **Patience**: Remember that everyone is learning and may need guidance
+
+### Working Together Effectively
+- Communicate clearly and concisely
+- Share context and background information
+- Ask clarifying questions when needed
+- Celebrate shared successes
+- Learn from mistakes without blame
+
+## Code Review Practices
+
+Code review is a collaborative process that improves code quality and builds community.
+
+### For Reviewers
+- Review promptly and thoroughly
+- Provide specific, actionable feedback
+- Distinguish between suggestions and requirements
+- Acknowledge good work alongside improvements
+- Be respectful and constructive
+
+### For Authors
+- Write clear, self-documenting code
+- Respond to feedback with an open mind
+- Ask questions when feedback is unclear
+- Explain your reasoning when needed
+- Thank reviewers for their input
+
+### Review Focus Areas
+- **Correctness**: Does the code do what it's supposed to?
+- **Maintainability**: Is the code easy to understand and modify?
+- **Performance**: Are there performance considerations?
+- **Testing**: Are there adequate tests?
+- **Documentation**: Is the code properly documented?
+
+## Communication Channels
+
+### Primary Channels
+- **GitHub Issues**: For bug reports, feature requests, and discussions
+- **Pull Requests**: For code changes and reviews
+- **Discussions**: For general questions and community conversations
+- **Email**: For private inquiries and sensitive matters
+
+### Communication Best Practices
+- Use the appropriate channel for your message
+- Search before posting to avoid duplicates
+- Be specific and provide context
+- Stay on topic in discussions
+- Follow up on your conversations
+
+### Response Expectations
+- Issues: Initial response within 48 hours
+- Pull Requests: Review feedback within 5 business days
+- General inquiries: Response within 72 hours
+
+## Working Together Effectively
+
+### Async-First Communication
+- Write clear, detailed messages
+- Include all relevant context
+- Be patient with time zone differences
+- Use documentation to share knowledge
+
+### Synchronous Communication
+- Respect others' time and schedules
+- Come prepared to meetings
+- Share outcomes with those who couldn't attend
+- Balance speaking and listening
+
+### Handling Disagreements
+- Focus on the issue, not the person
+- Seek to understand different perspectives
+- Look for common ground
+- Escalate constructively when needed
+- Accept that not all disagreements will be resolved
+
+---
+
+# Roles
+
+## Contributor Levels
+
+### Casual Contributors
+**Definition**: Contributors who make occasional contributions to the project.
+
+**Characteristics**:
+- Submit occasional bug fixes or small improvements
+- May participate in discussions occasionally
+- Typically have 1-10 contributions
+
+**Expectations**:
+- Follow the Code of Conduct
+- Submit quality contributions
+- Respond to feedback on their contributions
+
+### Regular Contributors
+**Definition**: Contributors who demonstrate consistent engagement with the project.
+
+**Characteristics**:
+- Regular contributions over an extended period
+- Active participation in discussions
+- Typically have 10-50 contributions
+- Show understanding of project direction
+
+**Expectations** (in addition to Casual expectations):
+- Help review others' pull requests
+- Answer questions from new contributors
+- Participate in community discussions
+- Show commitment to project success
+
+### Major Contributors
+**Definition**: Contributors who have made significant, sustained contributions.
+
+**Characteristics**:
+- Multiple substantial contributions (features, subsystems)
+- Demonstrated leadership in specific areas
+- Typically have 50+ contributions
+- Recognized by maintainers and community
+
+**Expectations** (in addition to Regular expectations):
+- Lead significant features or initiatives
+- Mentor new and casual contributors
+- Participate in project planning
+- Represent the project positively
+
+## Maintainers
+
+Maintainers are contributors who have demonstrated exceptional commitment
+and have been granted additional privileges and responsibilities.
+
+### Maintainer Responsibilities
+- Review and merge pull requests
+- Triage and respond to issues
+- Enforce the Code of Conduct
+- Guide project technical direction
+- Mentor and support contributors
+- Manage releases and deployments
+- Communicate project decisions
+
+### Maintainer Privileges
+- Write access to the repository
+- Ability to merge pull requests
+- Access to project management tools
+- Voting rights on major decisions
+
+### Becoming a Maintainer
+Major contributors may be invited to become maintainers based on:
+- Consistent, high-quality contributions
+- Demonstrated understanding of the codebase
+- Active participation in code review
+- Positive community interactions
+- Willingness to take on maintenance responsibilities
+
+## Project Leads
+
+Project leads have overall responsibility for the project's direction and health.
+
+### Project Lead Responsibilities
+- Set strategic direction for the project
+- Make final decisions when consensus cannot be reached
+- Ensure project remains true to mission and values
+- Foster a healthy, inclusive community
+- Mediate disputes and resolve conflicts
+- Represent the project externally
+- Manage project resources and priorities
+
+### Project Lead Selection
+Project leads are selected from maintainers based on:
+- Demonstrated leadership and vision
+- Strong technical understanding
+- Community trust and respect
+- Commitment to project success
+- Ability to work with diverse stakeholders
+
+## Role Promotion Criteria
+
+### From Casual to Regular
+- Demonstrated consistent contribution over time
+- Quality contributions that meet project standards
+- Positive community interactions
+- Understanding of project processes
+
+### From Regular to Major
+- Significant contributions to major features
+- Leadership on project initiatives
+- Active mentorship of other contributors
+- Recognition from maintainers and community
+
+### From Major to Maintainer
+- Sustained major contributor status
+- Proven ability to review contributions
+- Demonstrated understanding of project vision
+- Willingness to take on maintenance responsibilities
+- Nomination by existing maintainers
+
+### Maintaining Roles
+All roles require ongoing participation:
+- Inactive contributors may have roles reduced
+- Maintainers must actively review and respond
+- Project leads must maintain community engagement
+
+### Role Transitions
+- Role changes are announced to the community
+- Contributors may step down from roles voluntarily
+- Roles may be revoked for Code of Conduct violations
+- Appeals may be submitted for role decisions
+
+---
+
+# Cosmos Simulation Project Extended Community Guidelines
+
+## Introduction
+
+Welcome to the Cosmos Simulation project! This document provides comprehensive
+guidelines for community participation, collaboration, and communication. As an
+open-source initiative aimed at creating an accurate and educational solar system
+simulation, we value the contributions of all community members and strive to
+maintain a welcoming, productive, and innovative environment.
+
+This extended guidelines document supplements the Contributor Covenant Code of
+Conduct with specific provisions tailored to our project's unique characteristics,
+including its educational mission, scientific accuracy requirements, and the
+diverse backgrounds of our contributors.
+
+## Project Mission and Values
+
+### Our Mission
+
+The Cosmos Simulation project aims to create a scientifically accurate, visually
+compelling, and educationally valuable simulation of our solar system. We believe
+that understanding our cosmic neighborhood is fundamental to appreciating our
+place in the universe and advancing scientific literacy worldwide.
+
+### Core Values
+
+Our community is built upon several core values that guide all our interactions
+and decisions:
+
+**Scientific Integrity:** We are committed to maintaining the highest standards
+of scientific accuracy in all aspects of our simulation. This means we welcome
+scrutiny of our data, calculations, and rendering techniques, and we embrace
+opportunities to improve our accuracy based on new research and observations.
+
+**Educational Excellence:** As an educational tool, we recognize our responsibility
+to present information clearly, accurately, and accessibly. We strive to make
+complex astronomical concepts understandable for users of all backgrounds and
+ages.
+
+**Open Collaboration:** We believe that the best solutions emerge from diverse
+perspectives working together. We encourage contributions from people with
+different skills, experiences, and viewpoints.
+
+**Respect for Diversity:** Our community includes contributors from around the
+world with varied cultural backgrounds, native languages, and areas of expertise.
+We celebrate this diversity and strive to create an inclusive environment where
+everyone can contribute meaningfully.
+
+**Transparency:** We maintain open communication about our decisions, priorities,
+and challenges. We share our roadmap, discuss design choices, and welcome input
+from the community.
+
+## Getting Started with Contributing
+
+### For New Contributors
+
+If you're new to the Cosmos Simulation project, we warmly welcome you! Here are
+some steps to help you get started:
+
+1. **Explore the Project:** Begin by exploring our repository to understand the
+   project structure, current features, and ongoing development efforts. The README
+   file provides an overview, and our documentation folder contains detailed
+   information about various components.
+
+2. **Set Up Your Environment:** Follow our setup instructions to get the development
+   environment running on your machine. Our documentation includes step-by-step
+   guides for different operating systems and development setups.
+
+3. **Start Small:** We recommend beginning with small, well-defined tasks such as
+   fixing typos in documentation, improving comments, or addressing minor bugs.
+   This helps you learn the codebase and build relationships with other contributors.
+
+4. **Ask Questions:** Don't hesitate to ask questions! Our community is here to help.
+   Use our discussion forums, chat channels, or issue comments to seek clarification
+   or guidance.
+
+### For Experienced Contributors
+
+Experienced contributors play a crucial role in mentoring newcomers, reviewing
+contributions, and advancing the project's technical goals. We encourage you to:
+
+- Review pull requests from other contributors and provide constructive feedback
+- Mentor new contributors and help them learn the codebase
+- Propose new features through our feature request process
+- Participate in design discussions to help shape the project's future direction
+
+## Communication Guidelines
+
+### General Communication Principles
+
+Effective communication is essential for successful collaboration. All community
+members should adhere to the following principles:
+
+- **Be Clear and Concise:** Express your ideas clearly and concisely. When
+  discussing technical matters, provide enough context for others to understand
+  your point without overwhelming them with unnecessary details.
+- **Be Respectful:** Treat all community members with respect, regardless of their
+  experience level, background, or perspective. Disagreements are natural, but
+  they should be handled professionally and constructively.
+- **Be Patient:** Remember that many community members communicate in a language
+  that may not be their first. Be patient with communication style differences
+  and clarify when needed.
+- **Be Accountable:** Take responsibility for your words and actions. If you make
+  a mistake, acknowledge it and work to correct it.
+
+### Issue Tracking Guidelines
+
+When creating or responding to issues, please follow these guidelines:
+
+- Search before creating to see if a similar issue already exists
+- Provide detailed information when reporting bugs, including steps to reproduce
+- Use appropriate labels to help categorize issues
+- Keep discussions focused on the specific issue at hand
+- Follow up on issues you're working on and communicate about delays
+
+### Pull Request Guidelines
+
+Pull requests are the primary mechanism for contributing code to the project:
+
+- Create focused pull requests that address a single, well-defined concern
+- Write clear descriptions of what your pull request does and why
+- Keep pull requests updated based on feedback
+- Respond to feedback promptly and constructively
+- Be patient with the review process
+
+## Technical Standards
+
+### Code Style and Conventions
+
+Consistent code style makes the codebase more readable and maintainable:
+
+- Follow modern JavaScript conventions (ES6+ features where appropriate)
+- Use meaningful variable and function names
+- Include comprehensive comments for complex logic
+- Document all public functions, classes, and modules with JSDoc
+
+### Scientific Accuracy
+
+As a scientific simulation, accuracy is paramount:
+
+- Verify astronomical data against authoritative sources (NASA, JPL, etc.)
+- Document uncertainties in data sources clearly
+- Test rendering accuracy for relative sizes, positions, and movements
+- Update data and models as scientific understanding evolves
+
+### Performance Considerations
+
+A smooth simulation requires attention to performance:
+
+- Be mindful of CPU, memory, and GPU usage
+- Consider performance implications when designing new features
+- Handle edge cases gracefully without causing performance spikes
+- Document performance characteristics of new features
+
+## Community Roles and Responsibilities
+
+### Contributors
+
+All community members who contribute to the project are considered contributors.
+Contributors are expected to:
+
+- Follow the Code of Conduct in all community interactions
+- Submit high-quality contributions that meet project standards
+- Respond promptly to feedback on their contributions
+- Help other contributors when possible
+- Communicate respectfully and constructively
+
+### Maintainers
+
+Maintainers are contributors who have demonstrated consistent commitment to
+the project and have been granted additional privileges:
+
+- Review and respond to pull requests in a timely manner
+- Triage and respond to issues appropriately
+- Enforce the Code of Conduct consistently
+- Make decisions about project direction with community input
+- Mentor and support new contributors
+
+### Project Leads
+
+Project leads have overall responsibility for the project's direction and health:
+
+- Set the strategic direction for the project
+- Make final decisions when consensus cannot be reached
+- Ensure the project remains true to its mission and values
+- Foster a healthy, inclusive community
+- Mediate disputes when necessary
+
+## Conflict Resolution
+
+Disagreements are natural in any collaborative project. When conflicts arise,
+we encourage the following approach:
+
+1. **Direct Communication:** Try to resolve issues through direct, respectful
+   communication. Often, misunderstandings can be cleared up through simple
+   clarification.
+
+2. **Seek Mediation:** If direct communication doesn't resolve the issue, seek
+   mediation from other community members or maintainers.
+
+3. **Formal Resolution:** If the issue cannot be resolved through informal means,
+   it may be escalated for formal resolution by project leads.
+
+4. **Appeals:** Decisions can be appealed to the project leads for a final determination.
+
+## Acknowledging Contributions
+
+We value all contributions to the project and recognize contributors in several
+ways:
+
+- All contributors are acknowledged in our CONTRIBUTORS file
+- Significant contributions are highlighted in release notes and announcements
+- Code and documentation retain appropriate attribution per open source licenses
+- Outstanding contributors may be nominated for special recognition
+
+## Contact Information
+
+For questions about this Code of Conduct or community guidelines, please contact:
+
+- **General Inquiries:** info@cosmos-simulation.example.com
+- **Code of Conduct Reports:** conduct@cosmos-simulation.example.com
+- **Technical Support:** support@cosmos-simulation.example.com
+- **Security Concerns:** security@cosmos-simulation.example.com
+
+---
+
+## Comprehensive Behavioral Guidelines
+
+### What You SHOULD Do
+
+The following behaviors are encouraged and expected from all community members:
+
+**Communication Best Practices:**
+- Greet new members and help them feel welcome
+- Use clear, respectful language that all contributors can understand
+- Provide constructive feedback that helps others improve
+- Acknowledge questions even if you cannot answer them fully
+- Explain technical concepts patiently when helping newer contributors
+- Verify information before sharing it as fact, especially scientific data
+- Cite sources when providing astronomical or scientific information
+- Ask clarifying questions when you don't understand something
+- Use inclusive language that welcomes contributors of all backgrounds
+
+**Collaboration Best Practices:**
+- Review others' pull requests with helpful, specific comments
+- Test contributions before approving them in code review
+- Document your code thoroughly so others can understand it
+- Write tests for new features to ensure long-term reliability
+- Update documentation when you make changes to the codebase
+- Respond to review comments within a reasonable timeframe
+- Break large changes into smaller, manageable pull requests
+- Communicate delays or issues with assigned tasks promptly
+- Seek help when you're stuck rather than remaining blocked
+
+**Community Participation Best Practices:**
+- Participate in community discussions and share your expertise
+- Mentor new contributors and help them learn the codebase
+- Report bugs with detailed steps to reproduce the issue
+- Suggest improvements based on your experience using the project
+- Respect the time and effort others have invested in their work
+- Celebrate the successes of other community members
+- Remain patient with contributors who are still learning
+- Acknowledge your mistakes and work to correct them
+- Follow through on commitments you make to the community
+
+**Technical Best Practices:**
+- Follow the project's coding standards and style guidelines
+- Run tests and linting tools before submitting contributions
+- Use meaningful variable and function names that describe their purpose
+- Keep contributions focused on the specific task at hand
+- Update dependencies when security vulnerabilities are discovered
+- Consider performance implications of your changes
+- Backup your work and use version control for all significant changes
+- Verify that your changes work correctly before submitting them
+- Respect the project's branching strategy and workflow
+
+**Respect and Inclusion Best Practices:**
+- Treat all contributors with equal respect regardless of experience level
+- Recognize that people have different communication styles and backgrounds
+- Give others the benefit of the doubt when interpreting their words
+- Create space for quieter voices to be heard in discussions
+- Represent the project positively in all public interactions
+- Respect diverse perspectives and approaches to solving problems
+- Use people's preferred names and pronouns
+- Accommodate different time zones and work schedules when collaborating
+- Be understanding of life circumstances that may affect availability
+- Promote an environment where everyone feels safe to contribute
+
+### What You SHOULD NOT Do
+
+The following behaviors are prohibited and will result in consequences:
+
+**Communication Violations:**
+- Use inflammatory, offensive, or discriminatory language
+- Make personal attacks or insults against other contributors
+- Dismiss or belittle others' questions or contributions
+- Use sarcasm or irony in ways that could be misunderstood as hostility
+- Respond to questions with contempt or impatience
+- Share private information about contributors without consent
+- Create multiple accounts to manipulate voting or evade bans
+- Flood channels with repetitive or off-topic messages
+- Use the project's communication channels for unrelated commercial activities
+- Impersonate project maintainers or official representatives
+
+**Collaboration Violations:**
+- Submit low-quality contributions without testing or documentation
+- Abandon pull requests without explanation or hand-off
+- Ignore review feedback and refuse to make improvements
+- Submit very large pull requests that cannot be effectively reviewed
+- Make changes that break existing functionality without good reason
+- Include malicious code, backdoors, or security vulnerabilities
+- Commit sensitive information like API keys or passwords
+- Revert others' changes without proper discussion and rationale
+- Bypass code review by committing directly to protected branches
+- Claim ownership of code that you did not write or create
+
+**Technical Violations:**
+- Introduce known security vulnerabilities into the codebase
+- Use outdated or deprecated dependencies without justification
+- Ignore performance issues that significantly impact users
+- Circumvent testing requirements or submit untested code
+- Introduce code that is difficult to understand or maintain
+- Make changes that violate the project's license agreements
+- Include copyrighted material without proper licensing
+- Submit code that does not compile or run on supported platforms
+- Use the project to distribute malware or harmful software
+- Interfere with the project's continuous integration systems
+
+**Community Violations:**
+- Harass, threaten, or intimidate other community members
+- Engage in discriminatory behavior based on protected characteristics
+- Engage in any form of sexual harassment or inappropriate advances
+- Retaliate against others for reporting code of conduct violations
+- Create a hostile environment that drives contributors away
+- Spread misinformation about the project or its contributors
+- Manipulate or falsify contribution statistics or metrics
+- Exploit the project for personal gain without authorization
+- Disrupt community events or meetings with disruptive behavior
+- Encourage others to violate this code of conduct
+
+**Respect and Inclusion Violations:**
+- Use slurs, hate speech, or symbols associated with hatred
+- Mock or ridicule others' accents, language skills, or backgrounds
+- Assume someone's identity, experience level, or expertise
+- Gatekeep or make newcomers feel unwelcome in any way
+- Dismiss contributions based on the contributor's identity
+- Create or share content that is pornographic, violent, or disturbing
+- Discuss controversial political or religious topics in project spaces
+- Minimize or deny the experiences of marginalized contributors
+- Exclude others from participation based on geographic location
+- Make assumptions about someone's abilities or circumstances
+
+---
+
+## Severity Levels and Consequences
+
+The Cosmos Simulation project maintains a comprehensive enforcement system
+with distinct severity levels:
+
+### Level 1: Minor Verbal Correction
+**Examples:** Slightly informal language, minor formatting errors  
+**Consequence:** Private, informal reminder. No formal record.
+
+### Level 2: Formal Written Warning
+**Examples:** Repeated minor violations, dismissive language  
+**Consequence:** Formal written warning kept in project records.
+
+### Level 3: Temporary Discussion Ban
+**Examples:** Continued violations, unproductive comments, off-topic discussions  
+**Consequence:** 3-day ban from discussion channels.
+
+### Level 4: Pull Request Moratorium
+**Examples:** Multiple low-quality pull requests, ignoring feedback  
+**Consequence:** 7-day prohibition from submitting new pull requests.
+
+### Level 5: Restricted Participation
+**Examples:** Dismissive comments, inconsistent communication guidelines  
+**Consequence:** 14-day restricted participation with sponsor requirement.
+
+### Level 6: Temporary Community Ban
+**Examples:** Insulting language, public embarrassment, personal attacks  
+**Consequence:** 30-day complete suspension from all project spaces.
+
+### Level 7: Extended Community Ban
+**Examples:** Harassment, discriminatory remarks, sustained negativity  
+**Consequence:** 90-day ban with formal review before reinstatement.
+
+### Level 8: Permanent Account Suspension
+**Examples:** Sustained harassment, threats, malicious code, identity fraud  
+**Consequence:** Permanent ban from all project access.
+
+### Level 9: Legal Referral
+**Examples:** Copyright infringement, defamation, fraud, unauthorized trademark use  
+**Consequence:** Permanent ban with referral to legal authorities.
+
+### Level 10: Emergency Project Protection
+**Examples:** Security breaches, infrastructure attacks, malware introduction  
+**Consequence:** Immediate access revocation, law enforcement coordination.
+
+---
+
+## Escalation and Deescalation Guidelines
+
+### Escalation Path
+
+1. **Initial Detection:** Any community member may identify and report violations
+2. **Initial Assessment:** Coordinator reviews report to determine severity
+3. **Investigation:** Evidence gathering for severity levels 3 and above
+4. **Determination:** Decision about violation and consequence
+5. **Notification:** Individual notified with explanation and evidence
+6. **Appeal Process:** Available for severity levels 5 and above
+
+### Deescalation Considerations
+
+In appropriate cases, deescalation may be warranted:
+- First-time violations of low severity
+- Violations stemming from misunderstanding
+- Personal circumstances affecting behavior
+- Demonstrated remorse and commitment to change
+- Genuine efforts at repair and reconciliation
+
+Deescalation does not apply to severe violations or repeat offenders.
+
+### Appeal Process
+
+For violations of severity level 5 and above:
+1. Submit formal written appeal within 14 days
+2. Appeal review committee is assembled
+3. Committee reviews all evidence and renders decision
+4. Decision is final for severity levels 5-7
+5. External review available for severity levels 8-10 at discretion
+
+---
+
+## Reporting Violations
+
+All violations should be reported to ensure community safety:
+
+- **Report Email:** conduct@cosmos-simulation.example.com
+- **Emergency Reports:** security@cosmos-simulation.example.com
+
+**Reporting Principles:**
+- Reports should be made in good faith
+- Retaliation against reporters is itself a violation
+- All reports are treated confidentially
+- Reports are reviewed by trained coordinators
+- False reports may result in consequences for the reporter
+
+---
+
+## Enforcement Team
+
+The Code of Conduct is enforced by trained coordinators:
+
+- **Level 1-2:** Community members and any maintainer
+- **Level 3-4:** Senior maintainers and coordinators
+- **Level 5-7:** Project leads with review committee
+- **Level 8-10:** Project leads with external consultation
+
+All enforcement decisions are documented and tracked for consistency.
+
+---
+
+## Glossary
+
+**Key Terms:**
+- **Branch:** A parallel version of the repository for independent development
+- **Bug:** An error or flaw producing unexpected results
+- **Code Review:** Examining code changes before they are merged
+- **Commit:** A saved change with a unique identifier
+- **Contributor:** Anyone who submits work to the project
+- **Documentation:** Written materials explaining the project
+- **Issue:** A tracking item for bugs, features, or tasks
+- **Maintainer:** Contributor with project management responsibilities
+- **Pull Request:** A proposal to submit changes
+- **Repository:** Storage location for project files and history
+
+**Project-Specific Terms:**
+- **API:** Rules allowing different software components to communicate
+- **Astronomical Unit (AU):** Approximately 150 million kilometers
+- **J2000:** Julian date epoch starting January 1, 2000
+- **Kepler's Laws:** Three scientific laws describing planetary motion
+- **Three.js:** JavaScript 3D library used for rendering
+- **WebGL:** JavaScript API for rendering 2D/3D graphics in browsers
+
+---
+
+## Reach Out to Me
+
+If you have any questions, suggestions, or just want to connect, feel free to reach out:
+
+- **Email**: masonchenus@gmail.com
+- **GitHub**: @mason666777
+
+---
+
+**Last updated: January 2024**
+
+This Code of Conduct is licensed under a Creative Commons Attribution 4.0
+International License. You are free to share and adapt this document for
+your own projects, provided you give appropriate credit and indicate if
+changes were made.
+
+* Giving and gracefully accepting constructive feedback
+* Accepting responsibility and apologizing to those affected by our mistakes,
+  and learning from the experience
+* Focusing on what is best not just for us as individuals, but for the
+  overall community
+
+Examples of unacceptable behavior include:
+
+* The use of sexualized language or imagery, and sexual attention or
+  advances of any kind
+* Trolling, insulting or derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or email
+  address, without their explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
+
+## Enforcement Responsibilities
+
+Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.
+
+Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.
+
+## Scope
+
+This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.
+
+## Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+mason@cosmos simulation.example.com.
+All complaints will be reviewed and investigated promptly and fairly.
+
+All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.
+
+## Enforcement Guidelines
+
+Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:
+
+### 1. Correction
+
+  Community Impact  : Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.
+
+  Consequence  : A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.
+
+### 2. Warning
+
+  Community Impact  : A violation through a single incident or series
+of actions.
+
+  Consequence  : A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.
+
+### 3. Temporary Ban
+
+  Community Impact  : A serious violation of community standards, including
+sustained inappropriate behavior.
+
+  Consequence  : A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public or
+private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.
+
+### 4. Permanent Ban
+
+  Community Impact  : Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior,  harassment of an
+individual, or aggression toward or disparagement of classes of individuals.
+
+  Consequence  : A permanent ban from any sort of public interaction within
+the community.
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage],
+version 2.0, available at
+https://www.contributor covenant.org/version/2/0/code_of_conduct.html.
+
+Community Impact Guidelines were inspired by [Mozilla's code of conduct
+enforcement ladder](https://github.com/mozilla/diversity).
+
+[homepage]: https://www.contributor covenant.org
+
+For answers to common questions about this code of conduct, see the FAQ at
+https://www.contributor covenant.org/faq. Translations are available at
+https://www.contributor covenant.org/translations.
+
+  *
+
+# Cosmos Simulation Project * Extended Community Guidelines
+
+## Introduction
+
+Welcome to the Cosmos Simulation project! This document provides comprehensive
+guidelines for community participation, collaboration, and communication. As an
+open source initiative aimed at creating an accurate and educational solar system
+simulation, we value the contributions of all community members and strive to
+maintain a welcoming, productive, and innovative environment.
+
+This extended guidelines document supplements the Contributor Covenant Code of
+Conduct with specific provisions tailored to our project's unique characteristics,
+including its educational mission, scientific accuracy requirements, and the
+diverse backgrounds of our contributors.
+
+## Project Mission and Values
+
+### Our Mission
+
+The Cosmos Simulation project aims to create a scientifically accurate, visually
+compelling, and educationally valuable simulation of our solar system. We believe
+that understanding our cosmic neighborhood is fundamental to appreciating our
+place in the universe and advancing scientific literacy worldwide.
+
+### Core Values
+
+Our community is built upon several core values that guide all our interactions
+and decisions:
+
+  Scientific Integrity  : We are committed to maintaining the highest standards
+of scientific accuracy in all aspects of our simulation. This means we welcome
+scrutiny of our data, calculations, and rendering techniques, and we embrace
+opportunities to improve our accuracy based on new research and observations.
+
+  Educational Excellence  : As an educational tool, we recognize our responsibility
+to present information clearly, accurately, and accessibly. We strive to make
+complex astronomical concepts understandable for users of all backgrounds and
+ages.
+
+  Open Collaboration  : We believe that the best solutions emerge from diverse
+perspectives working together. We encourage contributions from people with
+different skills, experiences, and viewpoints.
+
+  Respect for Diversity  : Our community includes contributors from around the
+world with varied cultural backgrounds, native languages, and areas of expertise.
+We celebrate this diversity and strive to create an inclusive environment where
+everyone can contribute meaningfully.
+
+  Transparency  : We maintain open communication about our decisions, priorities,
+and challenges. We share our roadmap, discuss design choices, and welcome input
+from the community.
+
+## Getting Started with Contributing
+
+### For New Contributors
+
+If you're new to the Cosmos Simulation project, we warmly welcome you! Here are
+some steps to help you get started:
+
+  Explore the Project  : Begin by exploring our repository to understand the
+project structure, current features, and ongoing development efforts. The README
+file provides an overview, and our documentation folder contains detailed
+information about various components.
+
+  Set Up Your Environment  : Follow our setup instructions to get the development
+environment running on your machine. Our documentation includes step by step
+guides for different operating systems and development setups.
+
+  Start Small  : We recommend beginning with small, well defined tasks such as
+fixing typos in documentation, improving comments, or addressing minor bugs.
+This helps you learn the codebase and build relationships with other contributors.
+
+  Ask Questions  : Don't hesitate to ask questions! Our community is here to help.
+Use our discussion forums, chat channels, or issue comments to seek clarification
+or guidance.
+
+### For Experienced Contributors
+
+Experienced contributors play a crucial role in mentoring newcomers, reviewing
+contributions, and advancing the project's technical goals. We encourage you to:
+
+  Review Pull Requests  : Take time to review pull requests from other
+contributors. Provide constructive feedback that helps improve code quality
+and helps other contributors learn and grow.
+
+  Mentor Newcomers  : Share your knowledge and experience with new contributors.
+Answer questions, explain concepts, and help others navigate the codebase.
+
+  Propose New Features  : If you have ideas for new features or improvements,
+we encourage you to propose them through our feature request process. Provide
+clear descriptions, rationale, and, if possible, proof of concept implementations.
+
+  Participate in Design Discussions  : Major decisions about the project require
+community input. Participate in design discussions to help shape the future
+direction of the Cosmos Simulation.
+
+## Communication Guidelines
+
+### General Communication Principles
+
+Effective communication is essential for successful collaboration. All community
+members should adhere to the following principles:
+
+  Be Clear and Concise  : Express your ideas clearly and concisely. When
+discussing technical matters, provide enough context for others to understand
+your point without overwhelming them with unnecessary details.
+
+  Be Respectful  : Treat all community members with respect, regardless of their
+experience level, background, or perspective. Disagreements are natural, but
+they should be handled professionally and constructively.
+
+  Be Patient  : Remember that many community members communicate in a language
+that may not be their first. Be patient with communication style differences
+and clarify when needed.
+
+  Be Accountable  : Take responsibility for your words and actions. If you make
+a mistake, acknowledge it and work to correct it.
+
+### Issue Tracking Guidelines
+
+Our issue tracking system is the primary place for discussing bugs, features,
+and improvements. When creating or responding to issues, please follow these
+guidelines:
+
+  Search Before Creating  : Before creating a new issue, search to see if a
+similar issue already exists. If it does, contribute to the existing discussion
+rather than creating a duplicate.
+
+  Provide Detailed Information  : When reporting bugs, provide as much relevant
+information as possible, including steps to reproduce, expected behavior, actual
+behavior, and your environment details.
+
+  Use Appropriate Labels  : Help us categorize issues by using appropriate
+labels when creating or editing issues. This helps prioritize work and find
+relevant issues.
+
+  Stay on Topic  : Keep discussions focused on the specific issue at hand.
+Side conversations can be moved to new issues or discussion forums as needed.
+
+  Follow Up  : If you're working on an issue, keep the community updated on
+your progress. If circumstances prevent you from continuing work, communicate
+this so others can pick up where you left off.
+
+### Pull Request Guidelines
+
+Pull requests are the primary mechanism for contributing code to the project.
+When creating or reviewing pull requests, please follow these guidelines:
+
+  Create Focused Pull Requests  : Each pull request should address a single,
+well defined concern. Large, sprawling pull requests are difficult to review
+and more likely to contain bugs.
+
+  Write Clear Descriptions  : Provide clear descriptions of what your pull
+request does and why. Include any relevant context, such as related issues or
+design decisions.
+
+  Keep Pull Requests Updated  : If your pull request needs changes based on
+feedback, update it promptly. Outdated pull requests can block other work and
+create confusion.
+
+  Respond to Feedback  : When reviewers provide feedback, respond to it
+promptly. If you disagree with feedback, explain your reasoning
+constructively.
+
+  Be Patient with Reviews  : Code reviews take time, especially for complex
+changes. Be patient and use the feedback to improve both your code and your
+skills.
+
+### Code Review Etiquette
+
+Code review is a collaborative process aimed at improving code quality. Both
+authors and reviewers should approach code review constructively:
+
+  For Reviewers  :
+* Be specific and constructive in your feedback
+* Distinguish between personal preferences and objective issues
+* Acknowledge good work alongside suggestions for improvement
+* Explain the reasoning behind your suggestions
+* Focus on the code, not the person
+
+  For Authors  :
+* Approach reviews with an open mind
+* Ask clarifying questions when you don't understand feedback
+* Explain your design decisions when needed
+* Don't take feedback personally
+* Thank reviewers for their input
+
+## Technical Standards
+
+### Code Style and Conventions
+
+Consistent code style makes the codebase more readable and maintainable. Our
+project follows established conventions for each programming language we use:
+
+  JavaScript Standards  : We follow modern JavaScript conventions, using ES6+
+features where appropriate. We use meaningful variable and function names,
+consistent indentation, and comprehensive comments for complex logic.
+
+  Documentation Standards  : All public functions, classes, and modules should
+include JSDoc or equivalent documentation. Inline comments should explain the
+why, not the what, of complex code.
+
+  Testing Standards  : New features should include appropriate unit tests.
+Bug fixes should include tests that verify the fix and prevent regression.
+
+### Scientific Accuracy
+
+As a scientific simulation, accuracy is paramount. Contributors should:
+
+  Verify Data Sources  : When adding or modifying astronomical data, verify
+against authoritative sources such as NASA, JPL, or published astronomical
+catalogs.
+
+  Document Uncertainties  : When exact values are unknown or uncertain, document
+this clearly. Provide estimates and cite sources when possible.
+
+  Test Rendering Accuracy  : Visual representations should accurately reflect
+relative sizes, positions, and movements. Any simplifications or artistic
+liberties should be documented.
+
+  Update with New Data  : As scientific understanding evolves, we should update
+our data and models accordingly. Contributors are encouraged to track relevant
+research and propose updates.
+
+### Performance Considerations
+
+A smooth simulation requires attention to performance. Contributors should:
+
+  Consider Resource Usage  : Be mindful of CPU, memory, and GPU usage,
+especially for rendering calculations and real time updates.
+
+  Optimize Appropriately  : Don't optimize prematurely, but do consider
+performance implications when designing new features. Profile code before and
+after optimizations.
+
+  Handle Edge Cases  : Ensure code handles edge cases gracefully without
+causing performance spikes or crashes.
+
+  Document Performance Characteristics  : When introducing new features,
+document any performance considerations or known limitations.
+
+## Community Roles and Responsibilities
+
+### Contributors
+
+All community members who contribute to the project, whether through code,
+documentation, testing, design, or other means, are considered contributors.
+Contributors are expected to:
+
+* Follow the Code of Conduct in all community interactions
+* Submit high quality contributions that meet project standards
+* Respond promptly to feedback on their contributions
+* Help other contributors when possible
+* Communicate respectfully and constructively
+
+### Maintainers
+
+Maintainers are contributors who have demonstrated consistent commitment to
+the project and have been granted additional privileges and responsibilities.
+Maintainers are expected to:
+
+* Review and respond to pull requests in a timely manner
+* Triage and respond to issues appropriately
+* Enforce the Code of Conduct consistently
+* Make decisions about project direction with community input
+* Mentor and support new contributors
+* Represent the project positively in public forums
+
+### Project Leads
+
+Project leads are individuals who have overall responsibility for the project's
+direction and health. Project leads are expected to:
+
+* Set the strategic direction for the project
+* Make final decisions when consensus cannot be reached
+* Ensure the project remains true to its mission and values
+* Foster a healthy, inclusive community
+* Mediate disputes when necessary
+* Represent the project to external stakeholders
+
+## Conflict Resolution
+
+Disagreements are natural in any collaborative project. When conflicts arise,
+we encourage the following approach:
+
+### Step 1: Direct Communication
+
+If you disagree with someone, try to resolve the issue through direct,
+respectful communication. Often, misunderstandings can be cleared up through
+simple clarification.
+
+### Step 2: Seek Mediation
+
+If direct communication doesn't resolve the issue, seek mediation from other
+community members. This might involve posting in a public forum for community
+input or asking a maintainer to help facilitate discussion.
+
+### Step 3: Formal Resolution
+
+If the issue cannot be resolved through informal means, it may be escalated
+for formal resolution. Project leads will review the situation and make a
+binding decision.
+
+### Step 4: Appeals
+
+Decisions can be appealed to the project leads, who will review the case and
+issue a final determination.
+
+## Acknowledging Contributions
+
+We value all contributions to the project and recognize contributors in several
+ways:
+
+  Contributors List  : All contributors are acknowledged in our CONTRIBUTORS
+file, which is displayed prominently in our repository.
+
+  Release Notes  : Significant contributions are highlighted in release notes
+and project announcements.
+
+  Attribution  : Code, documentation, and other materials created by
+contributors retain appropriate attribution as specified by applicable open
+source licenses.
+
+  Recognition  : Outstanding contributors may be nominated for special
+recognition based on their contributions to the project.
+
+## Acknowledgments
+
+This document builds upon the Contributor Covenant Code of Conduct and draws
+inspiration from the community guidelines of many successful open source
+projects, including but not limited to:
+
+* Mozilla Firefox
+* React
+* Vue.js
+* Angular
+* TypeScript
+* Node.js
+* Python
+* Git
+
+We thank these projects for their commitment to fostering inclusive communities
+and for providing examples that have helped shape our own approach.
+
+## Contact Information
+
+For questions about this Code of Conduct or community guidelines, please
+contact:
+
+*   General Inquiries  : info@cosmos simulation.example.com
+*   Code of Conduct Reports  : conduct@cosmos simulation.example.com
+*   Technical Support  : support@cosmos simulation.example.com
+
+## Revision History
+
+This Code of Conduct was first established on January 1, 2024, and may be
+updated periodically to reflect changes in the community or project needs.
+Major revisions will be announced to the community, and contributors will
+have the opportunity to provide feedback on proposed changes.
+
+  Version 1.0   (January 1, 2024):
+* Initial adoption of the Contributor Covenant Code of Conduct
+* Addition of extended community guidelines specific to the Cosmos Simulation
+* Development of detailed communication and technical standards
+* Establishment of community roles and responsibilities
+
+  Version 1.1   (planned):
+* Updates based on community feedback
+* Clarification of enforcement procedures
+* Additional examples and explanations
+* Expanded documentation of scientific accuracy standards
+
+## Legal Notice
+
+This Code of Conduct is provided for informational purposes only and does
+not create any legal obligations or liabilities. The project maintainers
+retain the right to enforce this Code of Conduct as they deem appropriate
+in their sole discretion.
+
+Nothing in this Code of Conduct shall be construed as limiting the ability
+of the project maintainers to take any actions they believe are necessary
+to protect the project, its users, or its community.
+
+## Closing Thoughts
+
+The Cosmos Simulation project exists because of the collective effort of
+people who share a passion for space exploration and education. By working
+together respectfully and collaboratively, we can create something truly
+remarkable that inspires future generations to look up at the stars and
+wonder about the universe we inhabit.
+
+We thank every member of our community for their contributions, whether
+they're writing code, filing issues, providing feedback, or simply using
+the simulation and sharing it with others. Every interaction helps make
+this project better.
+
+Together, we're building a window to the cosmos. Let's keep it open,
+welcoming, and full of wonder.
+
+## Development Workflow
+
+### Overview
+
+The Cosmos Simulation project follows a structured development workflow that
+ensures code quality, proper review, and smooth collaboration among contributors.
+Understanding and following this workflow is essential for anyone who wishes
+to contribute meaningfully to the project.
+
+### Development Cycle
+
+Our development follows a continuous integration approach with regular release
+cycles. Development occurs on feature branches that are merged into the main
+branch after thorough review and testing. We maintain a stable main branch that
+always contains production ready code, while development work happens on
+dedicated branches.
+
+Feature development follows a predictable pattern: first, the feature or fix
+is discussed and agreed upon in issues or design documents. Then, a branch is
+created from main, development work is completed with appropriate testing,
+and finally, the branch is submitted for review and merging.
+
+### Development Environment Setup
+
+Setting up a proper development environment is crucial for effective
+contribution. Contributors should ensure they have the following configured:
+Node.js and npm for JavaScript development, Git for version control, a modern
+code editor with appropriate extensions, and any project specific tools
+detailed in our documentation.
+
+We recommend configuring line ending handling for cross platform compatibility,
+setting up pre commit hooks for code quality checks, and熟悉 our build and
+test scripts before making significant contributions.
+
+### Continuous Integration
+
+All contributions go through our continuous integration pipeline, which
+includes automated testing, linting, and build processes. Contributions that
+fail CI checks will not be merged until all issues are resolved.
+
+The CI pipeline runs the full test suite, performs static code analysis,
+checks code formatting compliance, builds the project for all supported
+platforms, and validates documentation changes. Contributors should run these
+checks locally before submitting their work to avoid unnecessary CI failures.
+
+## Documentation Standards
+
+### Purpose and Scope
+
+Documentation is a critical part of the Cosmos Simulation project. Good
+documentation helps users understand the simulation, assists developers in
+understanding the codebase, and ensures the long term sustainability of the
+project. All contributors are expected to contribute to documentation as
+part of their contributions.
+
+### Types of Documentation
+
+The project maintains several categories of documentation: user facing
+documentation that explains how to use the simulation, API documentation
+that describes code interfaces and behavior, developer documentation that
+guides new contributors through setup and contribution processes, and design
+documentation that explains architectural decisions and trade offs.
+
+Each type of documentation serves a distinct audience and purpose. When
+contributing documentation, consider who your primary audience is and what
+they need to understand.
+
+### Documentation Style
+
+All documentation should be clear, concise, and technically accurate. Use
+consistent formatting throughout, including heading hierarchy, code formatting,
+and terminology. Write in complete sentences with proper grammar, and avoid
+unnecessary jargon unless it serves a specific technical purpose.
+
+Code examples in documentation should be working and tested. If documenting
+an API, include realistic usage examples that demonstrate common patterns.
+When documenting complex concepts, start with a high level overview before
+diving into details.
+
+### Keeping Documentation Current
+
+Outdated documentation is often worse than no documentation, as it can mislead
+users and developers. When making changes that affect functionality, update
+or note the documentation implications in your pull request. Flag known
+documentation issues in issues so they can be addressed systematically.
+
+## Testing Requirements
+
+### Why Testing Matters
+
+As a scientific simulation, the Cosmos Simulation project has a responsibility
+to produce accurate and reliable results. Testing is not optional—it is a
+fundamental requirement for all contributions. Thorough testing helps catch
+bugs early, prevents regression when changes are made, and provides confidence
+that the simulation behaves as expected.
+
+### Test Types
+
+The project employs several levels of testing to ensure quality. Unit tests
+verify that individual functions and components work correctly in isolation.
+Integration tests verify that multiple components work together correctly.
+End to end tests verify that the complete simulation behaves correctly from
+a user's perspective. Performance tests ensure that the simulation maintains
+acceptable performance characteristics.
+
+Each type of test serves a different purpose and catches different classes
+of problems. Contributions should include appropriate tests at multiple levels
+whenever possible.
+
+### Test Coverage
+
+While we do not mandate specific coverage percentages, contributors should
+strive for comprehensive test coverage of their changes. Critical functionality
+should have near complete coverage. Bug fixes should include tests that verify
+the fix and prevent regression. New features should include tests for all
+public interfaces and important internal logic.
+
+### Writing Good Tests
+
+Good tests are reliable, readable, and maintainable. They should fail only
+when actual problems exist, not due to timing issues, environment differences,
+or test interdependencies. Tests should be easy to understand, with clear
+names and structure. They should be maintainable, with shared setup and
+teardown handled appropriately.
+
+Avoid testing implementation details when possible; instead, test observable
+behavior. This makes tests more resilient to refactoring and more useful as
+regression detectors.
+
+## Security Guidelines
+
+### Security First Approach
+
+Security is a fundamental concern for any software project. The Cosmos
+Simulation project, while primarily an educational and scientific tool,
+still must handle security considerations thoughtfully. All contributors
+should adopt a security first mindset when developing and reviewing code.
+
+### Handling Sensitive Data
+
+The project should never expose sensitive data such as API keys, passwords,
+personal information, or internal system details. If contributions require
+handling sensitive data, they must include appropriate protection mechanisms
+and documentation of security considerations.
+
+When in doubt about whether something should be included in the repository,
+consult with maintainers before proceeding. It is easier to prevent a security
+issue than to remediate one after it has been introduced.
+
+### Dependency Security
+
+Regularly review and update dependencies to address known vulnerabilities.
+Use tools like npm audit or equivalent dependency scanning tools to identify
+vulnerable packages. When vulnerabilities are found in dependencies, prioritize
+updating to secure versions.
+
+Avoid introducing new dependencies when existing ones meet the need, as each
+dependency is a potential security liability. When new dependencies are
+necessary, review their maintenance status, security history, and community
+adoption before adoption.
+
+### Reporting Security Issues
+
+If you discover a security vulnerability in the project, do not report it in
+public forums or issue trackers. Instead, contact the project leads directly
+at security@cosmos simulation.example.com. This allows the team to assess and
+address the vulnerability before it can be exploited.
+
+## Accessibility Standards
+
+### Commitment to Accessibility
+
+The Cosmos Simulation project is committed to being accessible to all users,
+including those with disabilities. We believe that scientific exploration
+should be available to everyone, regardless of physical abilities.
+
+### Visual Accessibility
+
+The simulation should be usable by people with various visual abilities.
+This includes providing sufficient color contrast, avoiding reliance on color
+alone to convey information, supporting screen readers where applicable, and
+allowing customization of visual elements such as size and contrast.
+
+When adding visual features, consider how users with color blindness,
+low vision, or other visual impairments will experience them. Provide text
+alternatives for visual information where possible.
+
+### Interaction Accessibility
+
+Users should be able to interact with the simulation using various input
+methods. This includes keyboard navigation for all major features, support
+for assistive technologies, and consideration of users with motor impairments
+who may have difficulty with precise inputs or rapid reactions.
+
+### Documentation Accessibility
+
+All documentation should be accessible to screen readers and other assistive
+technologies. Use proper heading structure, provide alt text for images, and
+ensure that code examples are accessible to users with visual impairments.
+
+## Internationalization
+
+### Supporting Multiple Languages
+
+The Cosmos Simulation project aims to be accessible to a global audience.
+This includes supporting multiple languages in the user interface, documentation,
+and any user facing text. Internationalization (i18n) considerations should
+be part of all contributions that affect users.
+
+### String Management
+
+All user facing strings should be externalized and marked for translation.
+Avoid embedding strings directly in code. Use the project's internationalization
+framework consistently, and follow established patterns for pluralization,
+gender, and other linguistic considerations.
+
+When adding new user facing strings, provide them in English as the project's
+primary language, with clear context for translators. Avoid idioms, slang,
+or culturally specific references that may not translate well.
+
+### Localization Process
+
+The project maintains translation files for supported languages. Contributors
+can propose new translations or improvements to existing ones. Translations
+should be reviewed by speakers of the target language for accuracy and
+naturalness.
+
+### Cultural Considerations
+
+Be aware that users from different cultures may have different expectations
+and conventions. Date and time formats, number formatting, and other
+locale specific elements should adapt to user preferences. Avoid assumptions
+about user location or preferences based on language alone.
+
+## Release Management
+
+### Release Philosophy
+
+The Cosmos Simulation project follows a predictable release schedule to
+provide users with regular updates and to manage the project's evolution
+effectively. Releases include new features, bug fixes, and improvements
+to existing functionality.
+
+### Release Types
+
+We distinguish between major releases, minor releases, and patch releases.
+Major releases may include breaking changes and significant new features.
+Minor releases add new features in a backward compatible manner. Patch
+releases contain bug fixes and security updates only.
+
+### Release Process
+
+Releases follow a defined process that includes feature freeze periods,
+testing phases, documentation updates, and announcement preparation. The
+process ensures that releases are well tested and that users are properly
+informed about changes.
+
+Contributors should be aware of upcoming release schedules when planning
+their contributions, particularly for changes that should be included in
+specific releases.
+
+### Version Numbering
+
+The project follows semantic versioning (SemVer) for release numbering. This
+communicates the nature of changes in each release and helps users understand
+the compatibility implications of updating.
+
+## Branching Strategy
+
+### Main Branch
+
+The main branch always contains production ready code. It is protected and
+can only be updated through approved pull requests. Direct commits to main
+are not allowed except by project maintainers in exceptional circumstances.
+
+### Feature Branches
+
+Feature branches are created for all substantive changes. Branch names should
+be descriptive and follow a consistent format. For example, feature branches
+might be named "feature/short description" or "fix/issue description".
+
+### Release Branches
+
+Release branches are created when preparing a new release. They allow for
+final testing and bug fixes without disrupting ongoing development on main.
+Release branches are named with the release version they will produce.
+
+### Branch Lifecycle
+
+Branches should be short lived and merged promptly after review. Long lived
+branches create merge conflicts and complicate development. If a branch
+cannot be merged quickly, communicate the reason and expected timeline to
+the team.
+
+## Commit Message Conventions
+
+### Why Commit Messages Matter
+
+Good commit messages are essential for understanding the history of the
+project, troubleshooting issues, and collaborating effectively. Well written
+commits make it easier to review changes, find when bugs were introduced,
+and understand the rationale behind decisions.
+
+### Commit Message Format
+
+Each commit message should consist of a subject line and an optional body.
+The subject line should be a short summary (50 characters or less) of the
+change, written in the imperative mood. The body, when present, should
+explain what changed and why, separated by a blank line from the subject.
+
+### Subject Line Guidelines
+
+Use the imperative mood ("Add feature" not "Added feature"). Capitalize the
+first letter. Do not end with a period. Focus on what the commit does, not
+why it was made—that context belongs in the body if needed.
+
+### Commit Size
+
+Each commit should represent a single logical change. Related changes can
+be grouped in a single commit if they are small and truly inseparable.
+Avoid making large commits that mix multiple concerns, as this makes review
+and rollback more difficult.
+
+### Atomic Commits
+
+Prefer atomic commits that do one thing well. This makes it easier to
+understand changes, find bugs, and selectively apply or revert commits.
+If a change affects multiple files to implement a single feature, those
+changes can reasonably be in one commit.
+
+## Issue Labeling System
+
+### Purpose of Labels
+
+Labels help organize and prioritize issues in the repository. Consistent
+label usage makes it easier to find relevant issues, track project progress,
+and understand the state of the codebase.
+
+### Label Categories
+
+The project uses several categories of labels: type labels indicate the
+kind of issue (bug, feature, documentation, etc.), status labels indicate
+where the issue stands (confirmed, in progress, blocked, etc.), priority
+labels indicate importance and urgency, and area labels indicate which
+part of the project the issue affects.
+
+### Label Definitions
+
+Contributors should understand the meaning of each label and apply them
+appropriately. When creating or editing issues, add relevant labels to
+help with organization. When working on issues, update their status labels
+as progress is made.
+
+### Label Consistency
+
+Use existing labels rather than creating new ones. If you believe a new
+label is necessary, discuss it with maintainers before creating it.
+Too many labels can be as problematic as too few, as they reduce clarity
+and consistency.
+
+## Code of Conduct for Events
+
+### Event Participation
+
+The Cosmos Simulation project may participate in or host events such as
+conferences, meetups, workshops, or virtual gatherings. All participants
+in project events are expected to follow this Code of Conduct, just as
+they would in online community spaces.
+
+### Event Specific Guidelines
+
+In addition to the general Code of Conduct, event participants should
+respect venue rules and policies, be mindful of noise levels and shared
+spaces, represent the project positively to external audiences, and
+follow any event specific guidelines communicated by organizers.
+
+### Virtual Events
+
+Virtual events have their own considerations. Participants should use
+their real names or clearly identified pseudonyms, minimize background
+noise and distractions, be patient with technology issues, and respect
+the time and attention of other participants.
+
+### Event Representation
+
+Individuals representing the project at external events have additional
+responsibilities. They should accurately represent the project's positions
+and capabilities, clarify when speaking personally versus representing
+the project, and defer to official project communications when appropriate.
+
+## Social Media Guidelines
+
+### Official Social Media Presence
+
+The project maintains official presences on social media platforms.
+These accounts are managed by designated project members and follow
+these social media guidelines.
+
+### Account Representation
+
+Official accounts should use official project branding and profile
+information. Posts should represent the project's official positions
+and communications. When sharing third party content, credit the
+original source and ensure it aligns with project values.
+
+### Engaging with the Community
+
+Project social media accounts should engage constructively with the
+community. This includes responding to questions when appropriate,
+acknowledging contributions and achievements, and sharing relevant
+updates and announcements.
+
+### Personal Social Media
+
+When project contributors discuss the project on personal social media,
+they should clarify that they are speaking personally and not officially
+representing the project. This prevents confusion about official project
+positions and protects both the individual and the project.
+
+## Third Party Services
+
+### Service Integration
+
+The Cosmos Simulation project may integrate with third party services
+for various purposes such as continuous integration, documentation hosting,
+or data services. All such integrations should follow these guidelines.
+
+### Service Selection
+
+Before adding a new third party service integration, consider whether
+the service is necessary and whether there are alternatives. Evaluate
+the service's privacy policy, data handling practices, reliability,
+and long term viability. Consider the maintenance burden of the
+integration.
+
+### Service Configuration
+
+Service configurations should be documented and should use appropriate
+authentication and authorization mechanisms. Sensitive credentials should
+never be committed to the repository. Services should be configured to
+minimize data exposure and respect user privacy.
+
+### Service Deprecation
+
+When third party services are discontinued or significantly changed,
+integrations should be updated or removed. Plan for service transitions
+and communicate changes to users in advance when possible.
+
+## Dependency Management
+
+### Dependency Philosophy
+
+Dependencies extend the project's capabilities but also introduce risks
+and maintenance burden. Each dependency should be carefully considered
+and justified. Prefer minimal dependencies and favor widely adopted,
+well maintained packages.
+
+### Adding Dependencies
+
+Before adding a new dependency, search for alternatives and consider
+implementing the functionality directly if it is straightforward. When
+adding a dependency, review its maintenance status, community size,
+security history, and license compatibility. Document the rationale
+for the dependency choice.
+
+### Updating Dependencies
+
+Dependencies should be kept reasonably current to benefit from bug fixes
+and security updates. However, frequent updates also introduce risk.
+Strike a balance between staying current and ensuring stability. Major
+version upgrades require more thorough testing and may require code changes.
+
+### Removing Dependencies
+
+Periodically review dependencies for continued necessity. Unused or
+unnecessary dependencies should be removed. When removing a dependency,
+ensure that any functionality it provided is either replaced or no
+longer needed.
+
+## License Compliance
+
+### Understanding Project Licenses
+
+The Cosmos Simulation project uses multiple licenses for different
+components. Contributors must understand and respect these licenses.
+The main project is licensed under an open source license detailed in
+the LICENSE file. Some components may use different licenses.
+
+### License Compatibility
+
+When contributing code or other materials, ensure that your contribution
+is compatible with the project's existing licenses. Generally, contributions
+to the main codebase should be under the same license as the surrounding
+code. If you wish to contribute under different terms, discuss this with
+maintainers first.
+
+### Third Party Content
+
+Using third party content (code, images, data, etc.) requires appropriate
+licensing and attribution. Never include content without proper license
+rights. When including third party content, document its source and license.
+
+### License Headers
+
+Source files should include appropriate license headers. When creating
+new files, add the standard license header. When modifying existing files,
+preserve existing license headers and add your contribution under the
+appropriate terms.
+
+## Trademark Policy
+
+### Project Name Usage
+
+The name "Cosmos Simulation" and associated logos and trademarks are
+valuable project assets. Use of project trademarks should follow this
+policy to protect the project's brand and reputation.
+
+### Permitted Use
+
+The following uses of project trademarks are generally permitted: referring
+to the project or its components, describing compatibility or integration
+with the project, and discussing the project in news, commentary, or
+educational contexts.
+
+### Prohibited Use
+
+The following uses of project trademarks are prohibited: using the project
+name or logo in ways that could imply endorsement or affiliation without
+permission, using the project name in domain names or social media accounts,
+and using the project name in a manner that could confuse people about
+the source of software or services.
+
+### Attribution
+
+When using project trademarks, provide clear attribution to the project.
+This helps maintain trademark rights and ensures users understand they
+are dealing with project related activities.
+
+## Privacy Considerations
+
+### User Privacy
+
+The Cosmos Simulation project respects user privacy. The project does
+not collect personal information from users without their knowledge and
+consent. Any data collection that does occur should be clearly disclosed
+and optional where possible.
+
+### Data Minimization
+
+Collect only the data that is necessary for the project's functioning.
+Do not collect or store personal information unless essential. When data
+must be collected, minimize the amount and duration of storage.
+
+### Third Party Privacy
+
+When using third party services, consider their privacy implications.
+Ensure that users are informed about any data shared with third parties.
+Prefer services with strong privacy practices.
+
+### Privacy in Contributions
+
+When making contributions, consider privacy implications for users.
+Avoid introducing features that collect unnecessary personal data.
+When contributions do involve data collection, document the collection
+purpose, scope, and retention practices.
+
+## AI and Machine Learning Guidelines
+
+### AI in the Project
+
+The Cosmos Simulation project may incorporate AI or machine learning
+components for purposes such as data analysis, optimization, or user
+experience improvement. All such components must follow these guidelines.
+
+### Transparency
+
+When the project uses AI or ML, this should be clearly disclosed to
+users. Users should understand when they are interacting with AI systems
+or when AI is processing their data.
+
+### Ethical Considerations
+
+AI components should be designed and deployed ethically. This includes
+avoiding biased training data that could lead to discriminatory outcomes,
+providing appropriate human oversight for AI decisions that affect users,
+and considering the societal implications of AI deployment.
+
+### AI Contribution Guidelines
+
+Contributions that add AI or ML components should include documentation
+of the approach, training data sources, evaluation methodology, and
+known limitations. Such contributions should be reviewed with particular
+care for ethical implications.
+
+## Community Metrics
+
+### Tracking Community Health
+
+The project maintains various metrics to track community health and
+growth. These metrics help inform project decisions and identify areas
+for improvement. Metrics tracked include contribution frequency,
+contributor diversity, issue resolution time, and community engagement.
+
+### Metric Usage
+
+Community metrics are used to guide project decisions, identify trends,
+and recognize contributor efforts. Metrics should be interpreted in
+context and should not be used as the sole basis for decisions about
+individuals or contributions.
+
+### Metric Transparency
+
+Community metrics are generally available to the community. This
+transparency helps contributors understand the project's state and
+identify opportunities for contribution.
+
+### Privacy in Metrics
+
+When collecting metrics, respect contributor and user privacy.
+Aggregate and anonymize data where possible. Do not collect metrics
+that could be used to track individual contributors without their
+consent.
+
+## Recognition Programs
+
+### Acknowledging Contributions
+
+The Cosmos Simulation project values and recognizes the contributions
+of its community members. Recognition programs help acknowledge the
+hard work and dedication of contributors.
+
+### Types of Recognition
+
+The project offers several forms of recognition: public acknowledgment
+in release notes and communications, contributor listings in project
+documentation, special roles or titles for significant contributors,
+and occasional awards or honors for exceptional contributions.
+
+### Recognition Criteria
+
+Recognition is based on the quality, impact, and consistency of
+contributions. Recognition decisions consider both technical contributions
+and community contributions such as mentoring, documentation, and support.
+
+### Nomination Process
+
+Contributors can nominate themselves or others for recognition.
+Nominations should describe the contributions being recognized and
+their impact on the project. Recognition decisions are made by project
+leads based on community input.
+
+## Mentorship Programs
+
+### Learning Opportunities
+
+The Cosmos Simulation project is committed to helping new contributors
+learn and grow. Mentorship programs connect experienced contributors
+with newcomers to facilitate knowledge transfer and skill development.
+
+### Becoming a Mentee
+
+New contributors interested in mentorship can indicate their interest
+through our community channels. Mentees should be proactive in their
+learning, ask questions, and be respectful of mentors' time. Setting
+clear goals and expectations helps make mentorship productive.
+
+### Becoming a Mentor
+
+Experienced contributors are encouraged to become mentors. Mentors
+should be patient, supportive, and knowledgeable. They should help
+mentees find appropriate tasks, review their work constructively, and
+support their growth as contributors.
+
+### Mentorship Activities
+
+Mentorship activities may include code reviews with explanations,
+pair programming sessions, guidance on project processes and culture,
+and assistance with navigating technical challenges. Mentorship should
+focus on building the mentee's skills and confidence.
+
+## Working Groups
+
+### Purpose of Working Groups
+
+Working groups are temporary teams formed to address specific projects
+or challenges that benefit from focused collaboration. Working groups
+allow contributors to work intensively on significant efforts without
+being distracted by regular project activities.
+
+### Forming Working Groups
+
+Working groups can be proposed by any contributor. Proposals should
+include the purpose and scope of the group, expected duration, and
+proposed participants. Working groups require approval from project
+leads.
+
+### Working Group Operation
+
+Working groups should have clear goals and timelines. They should
+communicate regularly with the broader community through updates or
+presentations. When the working group's goal is complete or the group
+is no longer needed, it should be formally closed.
+
+### Participation in Working Groups
+
+Working groups are open to any contributor who wishes to participate.
+Participation should align with the group's needs and the contributor's
+interests and skills. Working group members should commit to active
+participation for the group's duration.
+
+## Roadmap Participation
+
+### Understanding the Roadmap
+
+The project maintains a roadmap that outlines planned features,
+improvements, and priorities. The roadmap helps contributors understand
+the project's direction and identify opportunities for contribution.
+
+### Roadmap Input
+
+The community is encouraged to provide input on the roadmap. This
+includes proposing new ideas, commenting on existing plans, and
+prioritizing features based on community needs. Community input is
+valuable and considered seriously in roadmap decisions.
+
+### Contributing to Roadmap Items
+
+When roadmap items are selected for development, community members
+are welcome to contribute. Contributors can claim roadmap items they
+wish to work on, coordinate with others working on related items,
+and provide feedback on implementation approaches.
+
+### Roadmap Updates
+
+The roadmap is updated regularly to reflect completed work, changing
+priorities, and new opportunities. Major roadmap changes are announced
+to the community with context and rationale.
+
+## Feature Requests
+
+### Requesting Features
+
+Feature requests are welcome and valuable. Before submitting a request,
+search for existing similar requests and add your support if found.
+Describe the feature clearly, explaining what it would do and why it
+would be valuable.
+
+### Feature Request Evaluation
+
+Feature requests are evaluated based on alignment with project goals,
+technical feasibility, resource requirements, and community demand.
+Not all requested features will be implemented, but all requests are
+considered.
+
+### Contributing Requested Features
+
+If a feature request is approved for implementation, community members
+can contribute it. Contributors should coordinate with others working
+on similar features and follow project development practices.
+
+### Deprecation and Removal
+
+Sometimes features are deprecated or removed. When this happens,
+affected users will be notified in advance. Documentation will explain
+the deprecation timeline and any migration paths.
+
+## Beta Testing
+
+### Beta Program
+
+The project may offer beta versions of upcoming releases for testing.
+Beta testing helps identify issues before general release and allows
+interested users to try new features early.
+
+### Becoming a Beta Tester
+
+Beta testers are welcome from the community. Testers should be willing
+to provide feedback on new features, report bugs and issues, and
+understand that beta software may be unstable.
+
+### Beta Tester Responsibilities
+
+Beta testers are expected to test actively and provide constructive
+feedback. This includes testing on various systems and configurations,
+documenting issues clearly and completely, and providing feedback on
+usability and functionality.
+
+### Beta Feedback Process
+
+Beta feedback should be submitted through designated channels.
+Feedback should be specific and actionable. Maintainers review beta
+feedback and use it to improve releases before general availability.
+
+## User Feedback
+
+### Collecting Feedback
+
+User feedback helps the project improve and better serve its audience.
+Feedback can be collected through surveys, issue reports, discussions,
+or direct communication. All feedback is valuable and considered.
+
+### Types of Feedback
+
+The project welcomes various types of feedback: bug reports, feature
+suggestions, usability concerns, documentation improvements, and
+general comments or questions. Each type of feedback helps improve
+the project.
+
+### Providing Feedback
+
+When providing feedback, be specific and constructive. For bug reports,
+include steps to reproduce, expected behavior, and environment details.
+For feature suggestions, explain the use case and potential benefits.
+Constructive feedback is more likely to result in positive changes.
+
+### Feedback Response
+
+The project endeavors to acknowledge and respond to feedback in a
+timely manner. Not all feedback will result in changes, but all
+feedback is read and considered. When decisions are made based on
+feedback, the rationale may be shared.
+
+## Crisis Management
+
+### Crisis Types
+
+Crises affecting the project may include security vulnerabilities,
+significant bugs, loss of key contributors, or external events.
+Crisis management procedures help the project respond effectively.
+
+### Crisis Response
+
+In a crisis, the project will respond according to its nature.
+Security issues may require rapid patching and disclosure. Significant bugs may require emergency releases. Communication with the community is essential during crises.
+
+### Communication During Crises
+
+During a crisis, communication should be timely, accurate, and
+appropriate to the situation. The project will provide updates as
+information becomes available. Community members should monitor
+official channels for crisis related communications.
+
+### Recovery and Learning
+
+After a crisis is resolved, the project will review what happened
+and what could be improved. Lessons learned are incorporated into
+project practices to prevent or mitigate future crises.
+
+## Sustainability Practices
+
+### Long Term Sustainability
+
+The Cosmos Simulation project aims for long term sustainability.
+This includes financial sustainability, contributor sustainability,
+and technical sustainability. All contributors should consider
+sustainability implications of their work.
+
+### Contributor Sustainability
+
+Contributing should be sustainable for all participants. Contributors
+should balance project work with other life commitments. Burnout is
+a real concern, and the project encourages healthy work habits.
+
+### Technical Sustainability
+
+Technical decisions should consider long term maintenance. This
+includes choosing sustainable technologies, maintaining code quality,
+and avoiding unnecessary complexity. Technical debt should be managed
+proactively.
+
+### Community Sustainability
+
+A healthy community is essential for project sustainability. The
+project values inclusivity, welcomes new contributors, and maintains
+processes that support community growth and vitality.
+
+## Comprehensive Behavioral Guidelines
+
+### What You SHOULD Do
+
+The following behaviors are   encouraged and expected   from all community
+members. Following these guidelines helps maintain a positive, productive,
+and welcoming environment for everyone:
+
+  Communication Best Practices:  
+
+* You SHOULD greet new members and help them feel welcome in our community
+* You SHOULD use clear, respectful language that all contributors can understand
+* You SHOULD provide constructive feedback that helps others improve their work
+* You SHOULD acknowledge questions even if you cannot answer them fully
+* You SHOULD explain technical concepts patiently when helping newer contributors
+* You SHOULD verify information before sharing it as fact, especially scientific data
+* You SHOULD cite sources when providing astronomical or scientific information
+* You SHOULD ask clarifying questions when you don't understand something
+* You SHOULD use inclusive language that welcomes contributors of all backgrounds
+
+  Collaboration Best Practices:  
+
+* You SHOULD review others' pull requests with helpful, specific comments
+* You SHOULD test contributions before approving them in code review
+* You SHOULD document your code thoroughly so others can understand it
+* You SHOULD write tests for new features to ensure long term reliability
+* You SHOULD update documentation when you make changes to the codebase
+* You SHOULD respond to review comments within a reasonable timeframe
+* You SHOULD break large changes into smaller, manageable pull requests
+* You SHOULD communicate delays or issues with your assigned tasks promptly
+* You SHOULD seek help when you're stuck rather than remaining blocked
+
+  Community Participation Best Practices:  
+
+* You SHOULD participate in community discussions and share your expertise
+* You SHOULD mentor new contributors and help them learn the codebase
+* You SHOULD report bugs with detailed steps to reproduce the issue
+* You SHOULD suggest improvements based on your experience using the project
+* You SHOULD respect the time and effort others have invested in their work
+* You SHOULD celebrate the successes of other community members
+* You SHOULD remain patient with contributors who are still learning
+* You SHOULD acknowledge your mistakes and work to correct them
+* You SHOULD vote or react to issues to show community interest and support
+* You SHOULD follow through on commitments you make to the community
+
+  Technical Best Practices:  
+* You SHOULD follow the project's coding standards and style guidelines
+* You SHOULD run tests and linting tools before submitting contributions
+* You SHOULD use meaningful variable and function names that describe their purpose
+* You SHOULD keep your contributions focused on the specific task at hand
+* You SHOULD update dependencies when security vulnerabilities are discovered
+* You SHOULD consider performance implications of your changes
+* You SHOULD backup your work and use version control for all significant changes
+* You SHOULD verify that your changes work correctly before submitting them
+* You SHOULD use the project's issue tracking system for all work items
+* You SHOULD respect the project's branching strategy and workflow
+
+  Respect and Inclusion Best Practices:  
+* You SHOULD treat all contributors with equal respect regardless of experience level
+* You SHOULD recognize that people have different communication styles and backgrounds
+* You SHOULD give others the benefit of the doubt when interpreting their words
+* You SHOULD create space for quieter voices to be heard in discussions
+* You SHOULD represent the project positively in all public interactions
+* You SHOULD respect diverse perspectives and approaches to solving problems
+* You SHOULD use people's preferred names and pronouns
+* You SHOULD accommodate different time zones and work schedules when collaborating
+* You SHOULD be understanding of life circumstances that may affect availability
+* You SHOULD promote an environment where everyone feels safe to contribute
+
+### What You SHOULD NOT Do
+
+The following behaviors are   prohibited and will result in consequences  .
+These actions undermine the community and will not be tolerated:
+
+  Communication Violations:  
+
+* You SHOULD NOT use inflammatory, offensive, or discriminatory language
+* You SHOULD NOT make personal attacks or insults against other contributors
+* You SHOULD NOT dismiss or belittle others' questions or contributions
+* You SHOULD NOT use sarcasm or irony in ways that could be misunderstood as hostility
+* You SHOULD NOT respond to questions with contempt or impatience
+* You SHOULD NOT share private information about contributors without consent
+* You SHOULD NOT create multiple accounts to manipulate voting or evade bans
+* You SHOULD NOT flood channels with repetitive or off topic messages
+* You SHOULD NOT use the project's communication channels for unrelated commercial activities
+* You SHOULD NOT impersonate project maintainers or official representatives
+
+  Collaboration Violations:  
+
+* You SHOULD NOT submit low quality contributions without testing or documentation
+* You SHOULD NOT abandon pull requests without explanation or hand off
+* You SHOULD NOT ignore review feedback and refuse to make improvements
+* You SHOULD NOT submit very large pull requests that make review impossible
+* You SHOULD NOT make changes that break existing functionality without good reason
+* You SHOULD NOT include malicious code, backdoors, or security vulnerabilities
+* You SHOULD NOT commit sensitive information like API keys or passwords
+* You SHOULD NOT revert others' changes without proper discussion and rationale
+* You SHOULD NOT bypass code review by committing directly to protected branches
+* You SHOULD NOT claim ownership of code that you did not write or create
+
+  Technical Violations:  
+
+* You SHOULD NOT introduce known security vulnerabilities into the codebase
+* You SHOULD NOT use outdated or deprecated dependencies without justification
+* You SHOULD NOT ignore performance issues that significantly impact users
+* You SHOULD NOT circumvent testing requirements or submit untested code
+* You SHOULD NOT introduce code that is difficult to understand or maintain
+* You SHOULD NOT make changes that violate the project's license agreements
+* You SHOULD NOT include copyrighted material without proper licensing
+* You SHOULD NOT submit code that does not compile or run on supported platforms
+* You SHOULD NOT use the project to distribute malware or harmful software
+* You SHOULD NOT interfere with the project's continuous integration systems
+
+  Community Violations:  
+
+* You SHOULD NOT harass, threaten, or intimidate other community members
+* You SHOULD NOT engage in discriminatory behavior based on protected characteristics
+* You SHOULD NOT engage in any form of sexual harassment or inappropriate advances
+* You SHOULD NOT retaliate against others for reporting code of conduct violations
+* You SHOULD NOT create a hostile environment that drives contributors away
+* You SHOULD NOT spread misinformation about the project or its contributors
+* You SHOULD NOT manipulate or falsify contribution statistics or metrics
+* You SHOULD NOT exploit the project for personal gain without authorization
+* You SHOULD NOT disrupt community events or meetings with disruptive behavior
+* You SHOULD NOT encourage others to violate this code of conduct
+
+  Respect and Inclusion Violations:  
+
+* You SHOULD NOT use slurs, hate speech, or symbols associated with hatred
+* You SHOULD NOT mock or ridicule others' accents, language skills, or backgrounds
+* You SHOULD NOT assume someone's identity, experience level, or expertise
+* You SHOULD NOT gatekeep or make newcomers feel unwelcome in any way
+* You SHOULD NOT dismiss contributions based on the contributor's identity
+* You SHOULD NOT create or share content that is pornographic, violent, or disturbing
+* You SHOULD NOT discuss controversial political or religious topics in project spaces
+* You SHOULD NOT minimize or deny the experiences of marginalized contributors
+* You SHOULD NOT exclude others from participation based on geographic location
+* You SHOULD NOT make assumptions about someone's abilities or circumstances
+
+## Severity Levels and Consequences
+
+The Cosmos Simulation project maintains a comprehensive enforcement system
+with ten distinct severity levels. Each level corresponds to specific types
+of violations and corresponding consequences. The severity of consequences
+increases with the severity and frequency of violations:
+
+### Severity Level 1: Minor Verbal Correction
+
+  Examples of Violations:  
+* Using informal or casual language that is slightly unprofessional
+* Failing to follow communication format guidelines occasionally
+* Making minor formatting errors in issues or pull requests
+* Submitting code with minor style inconsistencies
+* Missing documentation for private or internal functions
+
+  Community Impact:   Negligible disruption to community operations with
+no harm to individuals or the project.
+
+  Consequence:   A private, informal reminder from a community member or
+maintainer explaining the issue. No formal record is created. The individual
+should correct their behavior going forward.
+
+  Expected Resolution Time:   Immediate correction expected. No follow up
+required unless the behavior recurs.
+
+### Severity Level 2: Formal Written Warning
+
+  Examples of Violations:  
+* Repeated minor violations after multiple informal reminders
+* Using dismissive language when responding to new contributors
+* Submitting code with significant style issues that require extensive review
+* Failing to test contributions before submitting them
+* Creating duplicate issues without searching first
+
+  Community Impact:   Minor disruption to community efficiency and
+potential discouragement of new contributors.
+
+  Consequence:   A formal written warning from a maintainer documenting
+the violation, the expected improvement, and a timeline for compliance.
+This warning is kept in project records for reference.
+
+  Expected Resolution Time:   Individual should demonstrate improvement
+within 7 days of receiving the warning.
+
+### Severity Level 3: Temporary Discussion Ban
+
+  Examples of Violations:  
+* Continued minor violations after formal written warning
+* Making unproductive or repetitive comments in discussions
+* Failing to respond to multiple review requests within two weeks
+* Discussing topics unrelated to the project in project channels
+* Using project channels to complain about other open source projects
+
+  Community Impact:   Reduced efficiency in community discussions and
+potential distraction from project work.
+
+  Consequence:   Temporary ban from participating in discussion channels
+for 3 days. All project interactions must be through pull request reviews
+and issue comments only. Access to real time chat is suspended.
+
+  Expected Resolution Time:   Ban is lifted after 3 days. Individual must
+acknowledge the reason for the ban and commit to improved behavior.
+
+### Severity Level 4: Pull Request Moratorium
+
+  Examples of Violations:  
+* Submitting multiple low quality pull requests without improvement
+* Ignoring feedback on multiple consecutive pull requests
+* Creating very large pull requests that cannot be effectively reviewed
+* Making changes that break continuous integration repeatedly
+* Submitting code with security issues discovered after merging
+
+  Community Impact:   Increased burden on code reviewers and potential
+risk to project stability.
+
+  Consequence:   Temporary prohibition from submitting new pull requests
+for 7 days. Individual may still review others' code, comment on issues,
+and participate in discussions. Existing open pull requests remain
+subject to review.
+
+  Expected Resolution Time:   Moratorium lifted after 7 days. Individual
+should demonstrate understanding of quality requirements before resuming
+pull request submissions.
+
+### Severity Level 5: Restricted Participation
+
+  Examples of Violations:  
+* Making dismissive or condescending comments toward multiple contributors
+* Consistently failing to follow communication guidelines after warnings
+* Engaging in unproductive arguments in project spaces
+* Submitting contributions with insufficient testing multiple times
+* Missing deadlines for assigned issues without communication
+
+  Community Impact:   Negative effect on community atmosphere and
+discouragement of other contributors.
+
+  Consequence:   Restricted participation for 14 days. Individual may
+only read project discussions and documentation. All contributions must
+be submitted through a mentor or sponsor who reviews them beforehand.
+No direct commenting or issue creation allowed.
+
+  Expected Resolution Time:   After 14 days, individual may apply for
+restricted lifting by submitting a written plan for improved participation.
+
+### Severity Level 6: Temporary Community Ban
+
+  Examples of Violations:  
+* Using insulting or derogatory language toward community members
+* Publicly embarrassing or shaming contributors for their work
+* Making personal attacks during code review discussions
+* Refusing to follow maintainer guidance on multiple occasions
+* Submitting code with intentional simplifications or errors
+
+  Community Impact:   Significant harm to community atmosphere and
+individual wellbeing. Creates hostile environment.
+
+  Consequence:   Temporary ban from all community participation for
+30 days. Individual is completely suspended from all project spaces,
+including forums, chat, issue tracking, and pull requests. This ban
+is publicly visible in community records.
+
+  Expected Resolution Time:   After 30 days, individual may request
+reinstatement by providing a written acknowledgment of violations and
+a detailed plan for changed behavior. Reinstatement is not guaranteed.
+
+### Severity Level 7: Extended Community Ban
+
+  Examples of Violations:  
+* Harassing specific community members through project channels
+* Making discriminatory remarks based on protected characteristics
+* Continuing violations after receiving a temporary ban
+* Publishing private communications without consent
+* Engaging in sustained campaign of negativity toward project or contributors
+
+  Community Impact:   Serious harm to community wellbeing and potential
+departure of targeted individuals from the community.
+
+  Consequence:   Extended ban from all community participation for 90
+days. Individual is completely suspended from all project access. All
+existing contributions are subject to review. A formal review will be
+conducted before any reinstatement consideration.
+
+  Expected Resolution Time:   After 90 days, individual may submit a
+formal reinstatement request. Reinstatement requires unanimous approval
+from project leads and demonstrated significant personal change.
+
+### Severity Level 8: Permanent Account Suspension
+
+  Examples of Violations:  
+* Sustained harassment of one or more community members
+* Making credible threats against contributors or the project
+* Introducing malicious code or security exploits intentionally
+* Identity fraud or impersonation of project members
+* Systematic efforts to undermine project success or reputation
+
+  Community Impact:   Severe harm to individual contributors and
+potential damage to project reputation and security.
+
+  Consequence:   Permanent suspension of all project accounts and
+access. Individual is permanently banned from all project spaces,
+contributions, and community activities. All existing contributions
+may be removed or attributed to anonymous sources. This suspension
+is permanent and non appealable.
+
+  Expected Resolution Time:   No reinstatement possible. Individual
+is permanently excluded from community participation.
+
+### Severity Level 9: Legal Referral
+
+  Examples of Violations:  
+* Copyright infringement or license violations of significant scope
+* Defamation of project maintainers or contributors
+* Fraudulent activity related to project donations or funding
+* Unauthorized use of project trademarks for commercial exploitation
+* Computer crime including unauthorized access or disruption of systems
+
+  Community Impact:   Legal and financial risk to the project and
+its maintainers. Potential harm to community members' reputations
+and livelihoods.
+
+  Consequence:   Immediate permanent ban from all project access.
+All relevant information is preserved for potential legal action.
+Referral to appropriate legal authorities and law enforcement.
+Communication with legal counsel for potential civil action.
+
+  Expected Resolution Time:   Legal process follows its own timeline.
+Individual is permanently excluded from community participation and
+subject to legal consequences.
+
+### Severity Level 10: Emergency Project Protection
+
+  Examples of Violations:  
+
+- Major security breaches or data leaks involving project secrets
+- Large-scale disruptions to project infrastructure or services
+- Widespread misuse of project resources for illegal purposes
+- Extensive copyright infringement or license violations affecting many contributors
+- Mass impersonation of project members for fraudulent activities
+- Active security attack or data breach targeting the project
+- Distributed denial of service or infrastructure attacks
+- Social engineering attacks against project maintainers
+- Introduction of malware affecting project users
+- Critical infrastructure sabotage or compromise
+- Imminent threat to safety of community members
+
+  Community Impact:   Critical threat to project security, stability,
+and community member safety. Potential widespread harm to users.
+
+  Consequence:   Immediate emergency response. All access revoked
+immediately. Coordination with hosting providers, security teams,
+and law enforcement. Full incident response procedures activated.
+All available remedies pursued including civil and criminal action.
+Individual is permanently banned and reported to GitHub Security Services, Legal services & appropriate authorities.
+
+  Expected Resolution Time:   Emergency response is immediate. Legal
+and security processes follow their own timelines. Full exclusion
+from project and all related services permanently.
+
+## Escalation and Deescalation Guidelines
+
+### Escalation Path
+
+Violations should be escalated through the following path:
+
+1.   Initial Detection  : Any community member or maintainer may identify
+   a potential violation and report it through designated channels.
+
+2.   Initial Assessment  : A designated coordinator reviews the report
+   to determine if it constitutes a violation and estimates severity level.
+
+3.   Investigation  : For severity levels 3 and above, an investigation
+   is conducted including gathering evidence, interviewing witnesses,
+   and reviewing records.
+
+4.   Determination  : After investigation, a determination is made about
+   the violation and appropriate consequence.
+
+5.   Notification  : The individual is notified of the determination
+   and consequence with full explanation and evidence.
+
+6.   Appeal Process  : For severity levels 5 and above, the individual
+   may appeal the decision through the formal appeal process.
+
+### deescalation Considerations
+
+In some cases, deescalation may be appropriate:
+
+* First time violations of low severity may warrant lesser consequences
+* Violations stemming from misunderstanding may be resolved through education
+* Personal circumstances affecting behavior may be considered
+* Demonstrated remorse and commitment to change may reduce consequences
+* Genuine efforts at repair and reconciliation may influence decisions
+
+deescalation does not apply to severe violations or repeat offenders.
+
+### Appeal Process
+
+For violations of severity level 5 and above, individuals may appeal:
+
+1.   Written Appeal  : Submit a formal written appeal within 14 days of
+   the decision, explaining grounds for appeal.
+
+2.   Review Committee  : An appeal review committee is assembled,
+   consisting of project leads not involved in the original decision.
+
+3.   Review Process  : Committee reviews all evidence and hears from
+   all parties before rendering a decision.
+
+4.   Outcome  : Committee may uphold, reduce, or increase the original
+   consequence. This decision is final for severity levels 5 7.
+
+5.   Further Appeal  : For severity levels 8 10, appeals may be
+   considered by external review at the project leads' discretion.
+
+## Reporting Violations
+
+All violations should be reported to ensure community safety:
+
+  Report Email  : conduct@cosmos simulation.example.com
+
+  Emergency Reports  : For urgent security concerns or threats to
+safety, contact project leads directly at security@cosmos simulation.example.com
+
+  Reporting Principles  :
+- Reports should be made in good faith
+- Retaliation against reporters is itself a violation
+- All reports are treated confidentially
+- Reports are reviewed by trained coordinators
+- False reports may result in consequences for the reporter
+
+## Enforcement Team
+
+The code of conduct is enforced by trained coordinators:
+
+  Level 1 2  : Community members and any maintainer
+  Level 3 4  : Senior maintainers and coordinators
+  Level 5 7  : Project leads with review committee
+  Level 8 10  : Project leads with external consultation
+
+All enforcement decisions are documented and tracked for consistency.
+
+  *
+
+## Glossary
+
+### Normal Glossary
+
+This glossary provides concise definitions of key terms used throughout this document and the Cosmos Simulation project:
+
+-   Branch  : A parallel version of the repository that allows independent development work
+-   Bug  : An error or flaw in software that produces unexpected results
+-   Code Review  : The process of examining code changes before they are merged
+-   Commit  : A saved change to the repository with a unique identifier
+-   Contributor  : Anyone who submits code, documentation, or other work to the project
+-   Documentation  : Written materials that explain how to use or understand the project
+-   Fork  : A personal copy of another user's repository
+-   Issue  : A tracking item for bugs, features, or tasks
+-   Maintainer  : A contributor with additional responsibilities for project management
+-   Merge  : Combining changes from different branches
+-   Open Source  : Software with source code that anyone can view and modify
+-   Pull Request  : A proposal to submit changes to the repository
+-   Repository  : A storage location for project files and history
+-   Reviewer  : A contributor who examines and comments on pull requests
+-   Technical Debt  : The future cost of taking shortcuts in development
+-   Testing  : Verifying that code works correctly
+-   Version Control  : A system that records changes to files over time
+
+#### Extended Glossary (A-Z)
+
+  ##### A  
+-   API (Application Programming Interface)  : A set of rules and protocols that allows different software applications to communicate with each other. In the Cosmos Simulation project, APIs define how the physics engine, time system, and renderer interact.
+-   Astronomical Unit (AU)  : A unit of measurement equal to the average distance between Earth and the Sun, approximately 150 million kilometers. Used extensively in the project for representing astronomical distances.
+-   Atomic Commit  : A commit that contains only one logical change. Atomic commits make it easier to understand history, revert changes, and isolate bugs.
+
+  ##### B  
+-   Backport  : Porting a bug fix or feature from a newer version of software to an older version. Ensures that stable releases receive important fixes without requiring users to upgrade.
+-   Branch Protection  : Rules that prevent direct commits to certain branches and require pull request reviews before merging. Protects the main branch from accidental or未经审核的 changes.
+-   Bug Report  : A detailed description of a software error, typically including steps to reproduce, expected behavior, and actual behavior. Good bug reports help developers identify and fix issues quickly.
+
+  ##### C  
+-   CI/CD (Continuous Integration/Continuous Deployment)  : Automated processes that build, test, and deploy code changes. The Cosmos Simulation project uses CI/CD to ensure code quality and automate releases.
+-   Code of Conduct  : A set of guidelines that establish expectations for participant behavior in a community. This document serves as the code of conduct for the Cosmos Simulation project.
+-   Code Review  : The practice of having other developers examine code changes before they are merged. Code review helps maintain code quality, share knowledge, and catch bugs early.
+-   Commit Message  : A description accompanying a commit that explains what changed and why. Good commit messages make it easier to understand project history and troubleshoot issues.
+-   Continuous Integration (CI)  : The practice of frequently merging code changes into a shared repository, with automated builds and tests run on each integration. Catches integration problems early.
+
+  ##### D  
+-   Dependency  : An external software package or library that the project relies on. Managing dependencies is crucial for security and stability.
+-   Deprecation  : Marking a feature or API as obsolete with a plan to remove it in a future version. Gives users time to adapt before the feature is removed.
+-   Documentation  : All written materials that help users and developers understand the project, including README files, API documentation, tutorials, and code comments.
+-   DSA (Developer Signing Authority)  : Permission granted to contributors to sign commits on behalf of the project, verifying the commit's origin.
+
+  ##### E  
+-   End-to-End Testing  : Testing that verifies the complete functionality of an application from the user's perspective. In Cosmos Simulation, this includes testing the complete simulation experience.
+-   Epic  : A large body of work that can be broken down into smaller tasks. Epics typically span multiple sprints or releases.
+
+  ##### F  
+-   Feature Branch  : A branch created for developing a new feature or improvement. Feature branches are merged into the main branch once the feature is complete and reviewed.
+-   Feature Request  : A proposal for a new feature or improvement to the project. Helps the community understand user needs and prioritize development.
+
+  ##### G  
+-   Git  : A distributed version control system used for tracking changes in source code during software development. The Cosmos Simulation project uses Git for version control.
+-   GitHub  : A web-based hosting service for Git repositories. Provides additional features like issue tracking, pull requests, and code review tools.
+-   Glossary  : An alphabetical list of terms with definitions, helping readers understand specialized vocabulary used in a document or field.
+-   GUI (Graphical User Interface)  : A visual interface that allows users to interact with software through graphical elements like buttons, menus, and visual representations. The Cosmos Simulation provides a 3D GUI for exploring the solar system.
+
+  ##### H  
+-   Hackathon  : An event where developers collaborate intensively on software projects. The Cosmos Simulation project may participate in or host hackathons.
+-   HTTP (Hypertext Transfer Protocol)  : The protocol used for transferring data over the web. The project's API endpoints use HTTP for communication.
+
+  ##### I  
+-   Integration Testing  : Testing that verifies multiple components work together correctly. In Cosmos Simulation, this tests interactions between the physics engine, time system, and renderer.
+-   Issue Tracker  : A tool for managing and tracking bugs, features, and tasks. The Cosmos Simulation project uses GitHub Issues for issue tracking.
+
+  ##### J  
+-   J2000  : The Julian date epoch starting at noon Universal Time on January 1, 2000. Used in astronomy as a reference point for calculations. The Cosmos Simulation project uses J2000 as its time reference.
+-   Jupyter Notebook  : An interactive computing environment that supports live code, equations, visualizations, and narrative text. Useful for exploratory analysis and prototyping.
+-   JSON (JavaScript Object Notation)  : A lightweight data-interchange format. Used for storing and exchanging structured data in the project.
+-   JWT (JSON Web Token)  : A compact URL-safe means of representing claims to be transferred between two parties. Used for authentication and authorization in the project.
+
+  ##### K  
+-   Kepler's Laws  : Three scientific laws describing planetary motion. The physics engine uses Kepler's laws to calculate accurate orbital positions.
+-   Kanban Board  : A visual tool used to manage workflow visually. Shows tasks in columns representing stages of completion.
+-   Keyframe Animation  : Animating a sequence of frames to create smooth movement. Used in the Cosmos Simulation project for animating celestial bodies.
+-   Keyframes  : Specific points in animation where properties like position, rotation, and scale are defined.
+
+  ##### L  
+-   LGTM  : "Looks Good To Me" - a common shorthand in code reviews indicating approval of a change.
+-   License  : A legal document that defines how software can be used, modified, and distributed. The Cosmos Simulation project uses open source licenses.
+
+  ##### M  
+-   Main Branch  : The primary branch containing production-ready code. In Git workflows, the main branch typically represents the current release of the software.
+-   Maintainer  : A contributor with elevated permissions and responsibilities for the project, including reviewing pull requests, managing issues, and making release decisions.
+-   Merge Conflict  : A situation where Git cannot automatically combine changes from different branches because the same lines were modified differently.
+-   Milestone  : A target date or goal for completing a set of issues or features. Helps track progress toward project objectives.
+
+  ##### N  
+-   Node.js  : A JavaScript runtime environment used for server-side development. The Cosmos Simulation project uses Node.js for development tools and build processes.
+
+  ##### O  
+-   Open Source  : Software with source code that is freely available for anyone to view, use, modify, and distribute. The Cosmos Simulation project is open source.
+-   Orbital Mechanics  : The study of the motion of objects in space under the influence of gravitational forces. The physics engine implements accurate orbital mechanics.
+
+  ##### P  
+-   Pair Programming  : A development practice where two programmers work together at one computer, with one writing code and the other reviewing each line.
+-   Patch  : A small update that fixes bugs or security vulnerabilities without adding new features.
+-   POV (Point of View)  : In 3D rendering, the camera position and orientation from which a scene is viewed. Cosmos Simulation allows users to view the solar system from different POVs.
+-   PR (Pull Request)  : A proposal to submit changes to a repository. Enables code review and discussion before changes are merged.
+-   Protocol  : A set of rules governing communication between systems. The project uses various protocols for data exchange.
+
+  ##### Q  
+-   QA (Quality Assurance)  : Activities and processes designed to ensure software quality. Includes testing, code review, and other quality-focused practices.
+
+  ##### R  
+-   Rebase  : A Git operation that moves or combines commits from one branch onto another. Can create a cleaner commit history but requires careful handling.
+-   Refactoring  : Restructuring existing code without changing its external behavior. Improves code readability, maintainability, or performance.
+-   Regression  : A bug that causes previously working functionality to stop working. Regression testing helps catch these issues.
+-   Release  : A version of the software made available to users. Includes bug fixes, new features, and improvements.
+-   Repository  : A storage location for project files, including complete history of changes. Often called a "repo."
+
+  ##### S  
+-   Semantic Versioning (SemVer)  : A versioning scheme that communicates the nature of changes in each release (major.minor.patch).
+-   Sprint  : A fixed time period during which specific work must be completed. Common in agile development methodologies.
+-   Style Guide  : A set of conventions for writing code in a particular language or project. Ensures consistency across the codebase.
+
+  ##### T  
+-   Tag  : A Git reference that marks a specific commit, often used to mark releases.
+-   Technical Debt  : The accumulated cost of choosing quick solutions over better approaches that would take longer to implement.
+-   Testing Framework  : A tool or library that assists in writing and running tests. The project uses appropriate testing frameworks for each component.
+-   Three.js  : A JavaScript 3D library used for rendering the solar system simulation. WebGLRenderer is built on Three.js.
+-   Trunk-Based Development  : A version control strategy where developers merge small changes directly into the main branch frequently.
+
+  ##### U  
+-   Unit Testing  : Testing individual functions or components in isolation. Catches bugs early and helps ensure code correctness.
+-   Upstream/Downstream  : Terms describing the relationship between repositories. Upstream is the original repository; downstream is a fork or derivative.
+
+  ##### V  
+-   Version Control  : A system that records changes to files over time, allowing recall of specific versions, comparison of changes, and merging of divergent changes.
+
+  ##### W
+-   WebAssembly (WASM)  : A binary instruction format for a stack-based virtual machine. WASM enables high-performance execution of compiled languages in modern web browsers.
+-   WebSocket  : A protocol providing full-duplex communication channels over a single TCP connection. Used for real-time updates in the Cosmos Simulation project.
+-   Whiteboard  : A collaborative drawing tool used for brainstorming ideas, planning, and documenting discussions.
+-   WebGL  : A JavaScript API for rendering interactive 2D and 3D graphics in web browsers. Used by the Cosmos Simulation renderer.
+
+  ##### X
+-   XML (eXtensible Markup Language)  : A markup language similar to HTML but more flexible and extensible. Used for configuration files and data interchange.
+-   XPath  : A query language for navigating and selecting nodes in XML documents. Used for parsing and manipulating data in the project.
+
+  ##### Y
+-   YAML (YAML Ain't Markup Language)  : A human-readable data serialization standard. Used for configuration files and data interchange in the project.
+-   YAML Schema  : A specification defining the structure and constraints of YAML files. Ensures consistent formatting and validation.
+-   YAML Validator  : A tool that checks YAML files against a schema to ensure compliance with defined standards.
+
+  ##### Z
+-   Zero Trust Architecture  : A cybersecurity model that assumes every entity inside and outside the network could potentially pose a threat. Applies strict access controls regardless of identity.
+-   Zen of Python  : A collection of guiding principles for writing clear and readable Python code. Influences the design philosophy behind the Cosmos Simulation project.
+---
+
+ This Code of Conduct is licensed under a Creative Commons Attribution 4.0
+International License. You are free to share and adapt this document for
+your own projects, provided you give appropriate credit and indicate if
+changes were made.*
+
+## Last updated: January 2024

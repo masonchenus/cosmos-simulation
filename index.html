@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmos Simulation - Ultra Accurate Solar System</title>
+    <link rel="stylesheet" href="Resources/Assets/css/styles.css">
+    <script src="Resources/Assets/js/three.min.js"></script>
+    <script src="Resources/Assets/js/OrbitControls.min.js"></script>
+    <script src="Resources/Assets/js/vendor.js"></script>
+    <script src="Engine/AstronomicalData.js"></script>
+    <script src="Engine/TimeSystem.js"></script>
+    <script src="Engine/PhysicsEngine.js"></script>
+    <script src="Renderer/WebGLRenderer.js"></script>
+    <script src="Resources/Assets/js/main.js"></script>
     <style>
         * {
             margin: 0;
@@ -369,51 +378,44 @@
         <div id="info-panel" class="hidden">
             <h2 id="body-name">Select a celestial body</h2>
             <div id="body-info"></div>
+        </div>
 
-            <div id="controls-panel">
-                <h3>Simulation Controls</h3>
-                <div class="control-group">
-                    <label>Time Speed:</label>
-                    <input type="range" id="time-speed" min="0" max="100" value="32">
-                    <span id="speed-display">1 day/sec</span>
-                </div>
-                <div class="control-group">
-                    <button id="play-pause">▶ Play</button>
-                    <button id="reset-time">↺ Reset</button>
-                </div>
-                <div class="control-group">
-                    <label>Date: <span id="current-date">2024-01-01</span></label>
-                </div>
+        <div id="controls-panel">
+            <h3>Simulation Controls</h3>
+            <div class="control-group">
+                <label>Time Speed:</label>
+                <input type="range" id="time-speed" min="0" max="100" value="32">
+                <span id="speed-display">1 day/sec</span>
+            </div>
+            <div class="control-group">
+                <button id="play-pause">▶ Play</button>
+                <button id="reset-time">↺ Reset</button>
+            </div>
+            <div class="control-group">
+                <label>Date: <span id="current-date">2024-01-01</span></label>
+            </div>
+        </div>
 
-                <div id="layers-panel">
-                    <h3>Layers</h3>
-                    <label><input type="checkbox" id="show-orbits" checked> Orbits</label>
-                    <label><input type="checkbox" id="show-labels" checked> Labels</label>
-                    <label><input type="checkbox" id="show-asteroids" checked> Asteroids</label>
-                    <label><input type="checkbox" id="show-moons" checked> Moons</label>
-                </div>
+        <div id="layers-panel">
+            <h3>Layers</h3>
+            <label><input type="checkbox" id="show-orbits" checked> Orbits</label>
+            <label><input type="checkbox" id="show-labels" checked> Labels</label>
+            <label><input type="checkbox" id="show-asteroids" checked> Asteroids</label>
+            <label><input type="checkbox" id="show-moons" checked> Moons</label>
+        </div>
 
-                <div id="bodies-list">
-                    <h3>Celestial Bodies</h3>
-                    <div id="bodies-tree"></div>
-                </div>
+        <div id="bodies-list">
+            <h3>Celestial Bodies</h3>
+            <div id="bodies-tree"></div>
+        </div>
+    </div>
 
-                <div id="loading">
-                    <div class="spinner"></div>
-                    <p>Loading Cosmos Simulation...</p>
-                </div>
+    <div id="loading">
+        <div class="spinner"></div>
+        <p>Loading Cosmos Simulation...</p>
+    </div>
 
-                <!-- Three.js from CDN -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.152.2/three.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/three-orbitcontrols@2.110.1/OrbitControls.min.js"></script>
-
-                <!-- Application Scripts -->
-                <script src="Resources/Assets/js/vendor.js"></script>
-                <script src="Engine/AstronomicalData.js"></script>
-                <script src="Engine/TimeSystem.js"></script>
-                <script src="Engine/PhysicsEngine.js"></script>
-                <script src="Renderer/WebGLRenderer.js"></script>
-                <script src="Resources/Assets/js/main.js"></script>
+    
 </body>
 
 </html>
