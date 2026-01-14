@@ -17,6 +17,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "i18next": "^25.7.4",
         "three": "^0.152.0"
     },
     "devDependencies": {

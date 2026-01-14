@@ -1,0 +1,58 @@
+# Robots.txt for Cosmos Simulation
+# https://github.com/mason666777/cosmos-simulation
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mason666777.github.io/cosmos-simulation/sitemap.xml
+
+# Disallow sensitive directories
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /Engine/
+Disallow: /Renderer/
+Disallow: /Resources/
+Disallow: /Scripts/
+Disallow: /src/
+
+# Allow docs and public assets
+Allow: /docs/
+Allow: /docs/public/
+
+# Crawl-delay for respectful scraping
+Crawl-delay: 10
+
+---
+
+# Googlebot specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Bingbot specific rules
+User-agent: Bingbot
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+
+# DuckDuckBot specific rules
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Common bot names for clarity
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: GPTBot
+Allow: /docs/
+Disallow: /Engine/
+Disallow: /Resources/
+
+User-agent: CCBot
+Allow: /docs/
+Disallow: /Engine/
+
